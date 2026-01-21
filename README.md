@@ -1,26 +1,18 @@
-<p align="center">
-  <a href="https://github.com/aliuyar1234/scrubid-iclr-pack/releases/latest/download/scrubid_preprint.pdf">
-    <img src="assets/scrubid_logo.svg" alt="ScrubID" width="720" />
-  </a>
-</p>
+# ScrubID: Identifiability-Aware Auditing for Mechanistic Interpretability
 
-<p align="center">
-  <a href="https://github.com/aliuyar1234/scrubid-iclr-pack/releases/latest/download/scrubid_preprint.pdf"><img alt="Paper PDF" src="https://img.shields.io/badge/Paper-PDF-blue" /></a>
-  <a href="https://github.com/aliuyar1234/scrubid-iclr-pack/releases/latest/download/scrubid_latex_sources.zip"><img alt="LaTeX sources" src="https://img.shields.io/badge/LaTeX-sources-success" /></a>
-  <a href="https://github.com/aliuyar1234/scrubid-iclr-pack/releases"><img alt="Release" src="https://img.shields.io/github/v/release/aliuyar1234/scrubid-iclr-pack" /></a>
-</p>
+Ali Uyar (Independent Researcher)
 
-# ScrubID
+- Paper (PDF): https://github.com/aliuyar1234/scrubid-iclr-pack/releases/latest/download/scrubid_preprint.pdf
+- LaTeX sources: https://github.com/aliuyar1234/scrubid-iclr-pack/releases/latest/download/scrubid_latex_sources.zip
+- Releases: https://github.com/aliuyar1234/scrubid-iclr-pack/releases
 
 ScrubID is an identifiability-aware auditing pipeline for mechanistic interpretability claims in transformer language models.
 
-It operationalizes a simple question that standard circuit papers rarely answer explicitly:
+It targets a concrete identifiability question:
 
-> If you can find one faithful circuit, how many other distinct circuits are also faithful under your intervention family, and how sensitive is your conclusion to implementation choices?
+> If you can find one faithful circuit, how many other distinct circuits are also faithful under the same intervention family, and how sensitive are conclusions to discovery and implementation choices?
 
-ScrubID produces (i) a scrubbed model construction, (ii) three diagnostics (RR, SSS, CC) that quantify redundancy, scrub-sensitivity, and complexity, and (iii) a non-identifiability certificate when multiple incompatible explanations survive the same validation criteria.
-
-Author: **Ali Uyar** (Independent Researcher)
+The pipeline produces (i) a scrubbed model construction, (ii) three diagnostics (RR, SSS, CC) that quantify redundancy, scrub-sensitivity, and complexity, and (iii) a non-identifiability certificate when multiple incompatible explanations satisfy the same validation criteria.
 
 ## Paper
 
@@ -36,7 +28,7 @@ This repository is a runnable, deterministic artifact pack: it includes the refe
 
 ## Citation
 
-See `CITATION.cff` (GitHub will also surface this under “Cite this repository”).
+See `CITATION.cff` (GitHub will also surface this under "Cite this repository").
 
 ## Repository layout
 
