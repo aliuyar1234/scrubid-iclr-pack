@@ -11,6 +11,7 @@ dist/
 build/
 .venv/
 venv/
+*.egg-info/
 
 # OS / editor
 .DS_Store
