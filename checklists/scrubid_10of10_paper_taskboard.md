@@ -38,7 +38,7 @@ Already in place (partial):
 - A real certificate exists showing a non-trivial near-optimal set with RR non-identifiability (|S_near|=2, RR=0.9090909090909091) on induction OOD under `G_ATTR_PATCH` (see Table T4 / Appendix D in `paper.md`).
 - Audit certificates include machine-readable `reason_codes` (see Appendix C/D in `paper.md`).
 - A mechanical claim↔evidence manifest + validator exists (`paper_results_manifest.json`, `CLI_CMD_VALIDATE_PAPER_MANIFEST`).
-- GPT Pro review is pasted in `paper/gpt_pro_review.md` (2026-01-19).
+- GPT Pro review feedback has been incorporated into `paper.md` (2026-01-19).
 - P1 scaffolding implemented (not yet paper-backed): multi-seed real-table aggregation (mean+CI) for T2/T4, and a deterministic `G_RANDOM_K` baseline generator enabled in `configs/generators.yaml`.
 - Canonical multi-seed offsets are defined: `SEEDS.PAPER_REAL_SEED_OFFSETS = [0,1,2,3,4]` (N=5 seeds) in `spec/00_CANONICAL.md`.
 
@@ -93,7 +93,7 @@ Work-in-progress bundles (do not cite as paper evidence):
   - `|S_near| ≥ 2` and
   - `RR ≥ CANONICAL.DIAGNOSTICS.RR_THRESHOLD_LOW` and/or `CC ≥ CANONICAL.DIAGNOSTICS.CC_THRESHOLD_GOOD` (with clearly stated slack/epsilon/tau settings).
 - [x] Include the emitted `certificate.json` and update the main results table(s) and narrative accordingly.
-- [x] Start with the concrete sweeps and candidate-diversification strategies enumerated in `paper/gpt_pro_review.md` (Strategies 1–3).
+- [x] Start with the concrete sweeps and candidate-diversification strategies captured in the incorporated review feedback (Strategies 1–3).
 - [x] Acceptance:
   - A reviewer can locate the row in a table, follow the run ID to artifacts, and see multiple distinct ε-faithful circuits in the certificate.
 - [x] Run IDs / evidence: `run_20260119T162723Z_0000` (induction OOD; reason_codes: rr_fail, sss_fail; |S_near|=2; RR=0.9090909090909091); Table T4 in `outputs/paper_ready_gpt2_20260119_v5/reports/report_20260119T165153Z_0000/` and Appendix D in `paper.md`.
@@ -227,7 +227,7 @@ Work-in-progress bundles (do not cite as paper evidence):
 
 ## Notes for next iteration
 
-This taskboard has been updated after pasting GPT Pro’s review into `paper/gpt_pro_review.md`.
+This taskboard has been updated after incorporating GPT Pro’s review feedback into `paper.md`.
 
 Next updates should:
 

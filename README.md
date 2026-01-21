@@ -8,12 +8,33 @@ It operationalizes a simple question that standard circuit papers rarely answer 
 
 ScrubID produces (i) a scrubbed model construction, (ii) three diagnostics (RR, SSS, CC) that quantify redundancy, scrub-sensitivity, and complexity, and (iii) a non-identifiability certificate when multiple incompatible explanations survive the same validation criteria.
 
-## Paper (PDF + Overleaf)
+Author: **Ali Uyar** (Independent Researcher)
 
-- PDF (preprint): `paper/scrubid_preprint.pdf`
-- Overleaf project (zip): `paper/overleaf_preprint.zip` (upload to Overleaf and compile `main.tex` with pdfLaTeX + BibTeX)
+## Paper
+
+- Paper PDF (download): https://github.com/aliuyar1234/scrubid-iclr-pack/releases/latest/download/scrubid_preprint.pdf
+- LaTeX source bundle (download): https://github.com/aliuyar1234/scrubid-iclr-pack/releases/latest/download/scrubid_latex_sources.zip
+
+Local copies (same files, repo paths):
+
+- `paper/scrubid_preprint.pdf`
+- `paper/scrubid_latex_sources.zip`
 
 This repository is a runnable, deterministic artifact pack: it includes the reference implementation, a spec (Single Definition Rule), and end-to-end reproduction commands. All constants, IDs, CLI literals, thresholds, and paths live in `spec/00_CANONICAL.md`.
+
+## Citation
+
+See `CITATION.cff` (GitHub will also surface this under “Cite this repository”).
+
+## Repository layout
+
+- `paper/`: preprint PDF and LaTeX source bundle.
+- `paper.md`: canonical manuscript source (Markdown).
+- `src/`: reference implementation (Python).
+- `configs/`: experiment configuration (YAML; canonical keys only).
+- `spec/`: formal definitions + Single Definition Rule (SSOT constants/IDs).
+- `outputs/`: immutable run artifacts (large; used for provenance / verification).
+- `tasks/`, `checklists/`: phase plan and release checklists.
 
 ## Quickstart (12 commands)
 
@@ -36,7 +57,7 @@ Each line below is a *canonical command ID*. The exact command string is defined
 
 - `scripts/resume_paper_bundle.py` resumes missing paper-scope real runs into an existing `--output_root` (useful if a long GPU run was interrupted).
 
-## What “publishable-ready” means here
+## What "publishable-ready" means here
 
 A run is considered publishable-ready when all quality gates defined in `SPEC.md` are PASS:
 
