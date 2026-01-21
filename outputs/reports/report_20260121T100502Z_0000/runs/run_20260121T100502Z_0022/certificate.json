@@ -1,0 +1,101 @@
+{
+  "project_id": "scrubid_iclr_pack_v1_0_3",
+  "project_version": "1.0.3",
+  "reason_codes": [
+    "rr_fail",
+    "sss_fail",
+    "cc_fail"
+  ],
+  "suite_id": "SUITE_SYNTH_V1",
+  "experiment_id": "EXP_SYNTH_REDUNDANCY_SWEEP_V1",
+  "intervention_family_id": "I_ACTPATCH",
+  "candidate_generator_id": "G_MANUAL_SEED",
+  "component_granularity": "node",
+  "model_id": "SUITE_SYNTH_V1",
+  "model_revision": "unknown",
+  "dataset_fingerprint": "28ea4d2b2670097ed039f8af914f855da772dcf49cefebbe8bedf2995b9c9b15",
+  "reference_dataset_fingerprint": "67b830a92faa7a4d38b96b2366ae1deff3e45b5d77f85c20d0305f55534daeaf",
+  "baseline_score_s0": 1.0,
+  "epsilon": 0.1,
+  "tau": 0.05,
+  "reference_distribution_id": "REFDIST_SYNTH_PAIRED_V1",
+  "reference_assignment_id": "REFASSIGN_DERANGEMENT_SHUFFLE_V1",
+  "RR": 0.6666666666666667,
+  "RR_verdict": "FAIL",
+  "SSS": 0.4666666666666666,
+  "SSS_verdict": "FAIL",
+  "CC": 0.8,
+  "CC_verdict": "FAIL",
+  "s_near": [
+    {
+      "components": [
+        "node_COMPARE_7_aggr",
+        "node_COMPARE_7_r0"
+      ],
+      "delta": 0.0,
+      "mdl": 2.0,
+      "necessity": {
+        "node_COMPARE_7_aggr": true,
+        "node_COMPARE_7_r0": true
+      }
+    },
+    {
+      "components": [
+        "node_COMPARE_7_aggr",
+        "node_COMPARE_7_r2"
+      ],
+      "delta": 0.0,
+      "mdl": 2.0,
+      "necessity": {
+        "node_COMPARE_7_aggr": true,
+        "node_COMPARE_7_r2": true
+      }
+    },
+    {
+      "components": [
+        "node_COMPARE_7_aggr",
+        "node_COMPARE_7_r3"
+      ],
+      "delta": 0.0,
+      "mdl": 2.0,
+      "necessity": {
+        "node_COMPARE_7_aggr": true,
+        "node_COMPARE_7_r3": true
+      }
+    },
+    {
+      "components": [
+        "node_COMPARE_7_aggr",
+        "node_COMPARE_7_r7"
+      ],
+      "delta": 0.0,
+      "mdl": 2.0,
+      "necessity": {
+        "node_COMPARE_7_aggr": true,
+        "node_COMPARE_7_r7": true
+      }
+    }
+  ],
+  "replicate_circuits": [
+    [
+      "node_COMPARE_7_aggr",
+      "node_COMPARE_7_r0"
+    ],
+    [
+      "node_COMPARE_7_aggr",
+      "node_COMPARE_7_r0"
+    ],
+    [
+      "node_COMPARE_7_aggr",
+      "node_COMPARE_7_r2"
+    ],
+    [
+      "node_COMPARE_7_aggr",
+      "node_COMPARE_7_r1"
+    ],
+    [
+      "node_COMPARE_7_aggr",
+      "node_COMPARE_7_r2"
+    ]
+  ]
+}

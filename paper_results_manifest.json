@@ -1,0 +1,3393 @@
+{
+  "schema_version": 1,
+  "project_id": "scrubid_iclr_pack_v1_0_3",
+  "project_version": "1.0.3",
+  "generated_utc": "2026-01-20T17:46:46Z",
+  "artifact_bundle_id": "paper_ready_gpt2_20260120_v6c",
+  "artifacts": [
+    {
+      "artifact_id": "CERT_REAL_INDUCTION_ID",
+      "kind": "audit_certificate",
+      "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T162441Z_0000/certificate.json",
+      "sha256": "7b660c8254a1335353bb3318e5513413e3ae1daf9f1d04d81ccf5c36af5ffa0b"
+    },
+    {
+      "artifact_id": "CERT_REAL_INDUCTION_OOD",
+      "kind": "audit_certificate",
+      "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T160424Z_0000/certificate.json",
+      "sha256": "b65bab27c043e6f690674217bde51d471a054270275b34d480e268861651ade8"
+    },
+    {
+      "artifact_id": "CERT_SYNTH_EX",
+      "kind": "audit_certificate",
+      "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0009/certificate.json",
+      "sha256": "aba3f61bab1cac16d0f1f51f5f5012bdeb6bd2cf6c83726b24a20e9a49193fae"
+    },
+    {
+      "artifact_id": "FIG_SYNTH",
+      "kind": "report_figure",
+      "path": "outputs/paper_ready_gpt2_20260120_v6c/reports/report_20260120T171815Z_0000/fig_synth.png",
+      "sha256": "f851a8f3019f6025281998e56643c9b7ff62af012de8695f49eb1cfba1b7d6d2"
+    },
+    {
+      "artifact_id": "T1",
+      "kind": "report_table",
+      "path": "outputs/paper_ready_gpt2_20260120_v6c/reports/report_20260120T171815Z_0000/table_T1.csv",
+      "sha256": "b92746f4a1a5bf3c905899861fc69ddcea7bc3c5976fe5d3a8b09e6294795263"
+    },
+    {
+      "artifact_id": "T2",
+      "kind": "report_table",
+      "path": "outputs/paper_ready_gpt2_20260120_v6c/reports/report_20260120T171815Z_0000/table_T2.csv",
+      "sha256": "91c8426a9d117163db776b61b13e5b88622ae192c4673c5b19ed249cb0e72773"
+    },
+    {
+      "artifact_id": "T3",
+      "kind": "report_table",
+      "path": "outputs/paper_ready_gpt2_20260120_v6c/reports/report_20260120T171815Z_0000/table_T3.csv",
+      "sha256": "0d69e79584d315a960491fb1ff7346d80ce8445e70489609d98b6a0701673a6e"
+    },
+    {
+      "artifact_id": "T4",
+      "kind": "report_table",
+      "path": "outputs/paper_ready_gpt2_20260120_v6c/reports/report_20260120T171815Z_0000/table_T4.csv",
+      "sha256": "320cd3e7af911b0fd9a720e5e3d38717d148202d708bf47ac81e5ae9c553e30a"
+    }
+  ],
+  "runs": [
+    {
+      "run_id": "run_20260120T115715Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0000/best_circuit.json",
+          "sha256": "6f6c9c0a4c1fb7c47de14e4e55da40ec21be46f730826d173565461a3cb35cea"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0000/diagnostics.json",
+          "sha256": "f65bf9a97535d170993569c6d52b9e83873141ca79d3039a76e9595df1081cd0"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0000/logs.jsonl",
+          "sha256": "fda40b2058f4bc899cb9c1f7b5566e08928599bbc75db73eacdc59fc038548df"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0000/run_record.json",
+          "sha256": "1658eb86c1d6750aff393b773a46b30bcf3d1d246b22a8073fe5f2ee54c01d36"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T115715Z_0001",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0001",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0001/best_circuit.json",
+          "sha256": "6f6c9c0a4c1fb7c47de14e4e55da40ec21be46f730826d173565461a3cb35cea"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0001/diagnostics.json",
+          "sha256": "144da283648701b79e5464b906fad75f21ffe9f647166b9b8f33eaf9c2c29184"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0001/logs.jsonl",
+          "sha256": "3841a42215a8e92220649c1f1bd15f41adbd0ef724cf6e1fd7ff5511d3a20caf"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0001/run_record.json",
+          "sha256": "8f33b2719530b51a20dd8256041fabbb7868e5d34f8d03119c9632ca074989ea"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T115715Z_0002",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0002",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0002/best_circuit.json",
+          "sha256": "6f6c9c0a4c1fb7c47de14e4e55da40ec21be46f730826d173565461a3cb35cea"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0002/diagnostics.json",
+          "sha256": "e1184906be9d6bfd35d7c17c0b61fb9b12575c7992cba1a81cced84e992d6c2f"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0002/logs.jsonl",
+          "sha256": "32185c10e00f3790f076e27464b1d410eaa8270951d9ce4b3815fc28aa3fd2da"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0002/run_record.json",
+          "sha256": "c84870be406e358a3d3be594026d3122aeceecfa297cc39e6218d33ac1a8dbe7"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T115715Z_0003",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0003",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0003/best_circuit.json",
+          "sha256": "89c16013ffd69f5fb97e45abd661498a40abc998f0845e4776a47e14f37ffc5e"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0003/certificate.json",
+          "sha256": "2d75cf57230d783356d43bed716001cfcf741b177e119e432a0c7d1a6a724059"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0003/diagnostics.json",
+          "sha256": "5c1c69a21bf939de66b1e80599a89167eb59202c0f43bfa6affc03f0d4158b73"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0003/logs.jsonl",
+          "sha256": "91cc18b82cf93ce7e89ae2475fb336235f260906eddbf6735f8337fa3f8d57cc"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0003/run_record.json",
+          "sha256": "eb19df8737a03c759e1fd90b6665cc216ba90d3b103fdc88ab96b0eaf300b432"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T115715Z_0004",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0004",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0004/best_circuit.json",
+          "sha256": "89c16013ffd69f5fb97e45abd661498a40abc998f0845e4776a47e14f37ffc5e"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0004/certificate.json",
+          "sha256": "4c1f9268c50cf65cc645da678237e8b651dfe51aa46f7c1cc90356f101a35dbb"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0004/diagnostics.json",
+          "sha256": "371f48f728ca1de992b39b1435bf386700d7aa5b81fa6f979139ff104d6e3e3b"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0004/logs.jsonl",
+          "sha256": "d55ed6482dd5c205e0b63c1155522b82a38c82168add65f99f460f14b8af0fd8"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0004/run_record.json",
+          "sha256": "cbfbfdc50f912585f4e31846db7ff2903ea9ba785f698d3be50c36be8f536379"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T115715Z_0005",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0005",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0005/best_circuit.json",
+          "sha256": "89c16013ffd69f5fb97e45abd661498a40abc998f0845e4776a47e14f37ffc5e"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0005/certificate.json",
+          "sha256": "aa4e280fed61c3c979dd1621c248879bfd6fc2e0af187e301619546e0b7cafe4"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0005/diagnostics.json",
+          "sha256": "6a588c0b84bd72d6cd8cbba76c90fbaf9e56d61a328eddd95aaae7cd4b167a54"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0005/logs.jsonl",
+          "sha256": "21a61737ba6f654e0d9628473862c6f14882da4c6c8ee9f743ffe1d061b4584f"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0005/run_record.json",
+          "sha256": "ac7d8bf45ca60bff210881ab7516120f135872faac4ed35b689ff2ae2004fabd"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T115715Z_0006",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0006",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0006/best_circuit.json",
+          "sha256": "6f6c9c0a4c1fb7c47de14e4e55da40ec21be46f730826d173565461a3cb35cea"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0006/diagnostics.json",
+          "sha256": "523ad9112fad10ecb6f61ac698bbd2c587970c5ee0dd0e264c8defb71cc2278b"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0006/logs.jsonl",
+          "sha256": "a763e4c3e256adbe4fa5e9f66f10fbf48c0d2b586d457b8830abc1efcfbe859f"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0006/run_record.json",
+          "sha256": "39ac90f096446a6cfb8e5fb955526563c55c8d9a6b48e05f303aa1100fb30ce2"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T115715Z_0007",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0007",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0007/best_circuit.json",
+          "sha256": "6f6c9c0a4c1fb7c47de14e4e55da40ec21be46f730826d173565461a3cb35cea"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0007/diagnostics.json",
+          "sha256": "bf47e710af9e0184c89dcf26701b9a63944a1270db2484ecf4f50e41a6da38f2"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0007/logs.jsonl",
+          "sha256": "b788d0b4d3c7f7d50aae14373f075b37a0acafd58c150a53cf956006c3b0e59d"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0007/run_record.json",
+          "sha256": "1ac350c91d6f4292f4ebebf9f9bf96be7117f280ccc5dacf2f5ca621628cb57b"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T115715Z_0008",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0008",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0008/best_circuit.json",
+          "sha256": "6f6c9c0a4c1fb7c47de14e4e55da40ec21be46f730826d173565461a3cb35cea"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0008/diagnostics.json",
+          "sha256": "830efcc326d8f46794d9735baaa1c2d78f95a019ccd3d75fb96b166d3834d7fe"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0008/logs.jsonl",
+          "sha256": "2f5f5b0e399296d903d3ba41d6f1274626aaa42ee21913e1f3c8a3a6e1d5a002"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0008/run_record.json",
+          "sha256": "5638b1de2c3b02e6627b0592defc030c1846d7069d640c68c492973adf3e1cde"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T115715Z_0009",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0009",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0009/best_circuit.json",
+          "sha256": "7b8e82dc5aa4f50d6a383f1d6f7d9953222af0cd788e27fce5d57d9e43c4c4e7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0009/certificate.json",
+          "sha256": "aba3f61bab1cac16d0f1f51f5f5012bdeb6bd2cf6c83726b24a20e9a49193fae"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0009/diagnostics.json",
+          "sha256": "92fbb5c61227a8e9638b4383c237227c596a8fb33b3de29727494b63750db5f7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0009/logs.jsonl",
+          "sha256": "5d904a628001dac36ca21bc1052ea38485b5c17daa1518a28aa8fe0e10ce4183"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0009/run_record.json",
+          "sha256": "9bf22ead71a47522f89274ca7738be01566bdc7f26b66ce19a2fb8b1f6072b5f"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T115715Z_0010",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0010",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0010/best_circuit.json",
+          "sha256": "7b8e82dc5aa4f50d6a383f1d6f7d9953222af0cd788e27fce5d57d9e43c4c4e7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0010/certificate.json",
+          "sha256": "ea074c9f1784aaddfd49bd333754c64ac5ed3d727d1eb53b535985a8c6f1ac5b"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0010/diagnostics.json",
+          "sha256": "1e3e6fcbdc09a0475ae617af842d7e80a9d7726f62ef3bfe17ec7e9c30e9abb4"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0010/logs.jsonl",
+          "sha256": "424108a770f8db3871df8bb961ad1a95ca7885b62ff3cd0efd9f6e7804aaba98"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0010/run_record.json",
+          "sha256": "2b7f2b40e6ad24656000cd9e1fd94dea171498dc67429ccd01ed6201fb9e389f"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T115715Z_0011",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0011",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0011/best_circuit.json",
+          "sha256": "7b8e82dc5aa4f50d6a383f1d6f7d9953222af0cd788e27fce5d57d9e43c4c4e7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0011/certificate.json",
+          "sha256": "fab89ae58ea90440c7c28a77c44474fc52abe6ad18b1fe3920b66f6e2bcba816"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0011/diagnostics.json",
+          "sha256": "11c5a87fd7f1f7c649c65d0c338fefcd0c17769871c45ffbcca5e57af88dd3f8"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0011/logs.jsonl",
+          "sha256": "952f9b43583faf450cb88ba3eba2910d9c11e1b92b8d787808695c612e0cd5eb"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0011/run_record.json",
+          "sha256": "f03b3e53da4e637d30ae30f998619276d0ddb6927bd86360ca05d554a10a9579"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T115715Z_0012",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0012",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0012/best_circuit.json",
+          "sha256": "26adbfe4c5354b8050248852a9df692186426015e6c315568b605b6bb26a41e3"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0012/certificate.json",
+          "sha256": "5fc7036310b14ac0f49a799be6386812a18a4b01a78b6f7a6c41e964c9b52063"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0012/diagnostics.json",
+          "sha256": "6c3147193cf0f208e967f9bcd04ae0a07a01f30882c1da31d1cf32d02f105d62"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0012/logs.jsonl",
+          "sha256": "490401896cf90a6a8fe979469adcd10bc987bc12feed659fe75d3a94fe40bc33"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0012/run_record.json",
+          "sha256": "1b07e0601844d1f7bb3ba4f356fa1653aea8c0ac3b14ff76bb1dd919088fe09a"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T115715Z_0013",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0013",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0013/best_circuit.json",
+          "sha256": "26adbfe4c5354b8050248852a9df692186426015e6c315568b605b6bb26a41e3"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0013/certificate.json",
+          "sha256": "e372cca4428f080d03e36e7784bd9a5d4db20575ba43dba39d7a16566e74f948"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0013/diagnostics.json",
+          "sha256": "47715baed8bff4c0bf4215f076c63d6300933dcc6476150da55fc2aa3ad486e2"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0013/logs.jsonl",
+          "sha256": "87b47b6b5682c1659c5f82d52c75e92700348a4b22e3ff7d6e5a9dfce377d147"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0013/run_record.json",
+          "sha256": "68b0eea1f8526e8b8d98278924853d1f4086eac864e6d72724b2de6a6c9f62e5"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T115715Z_0014",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0014",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0014/best_circuit.json",
+          "sha256": "26adbfe4c5354b8050248852a9df692186426015e6c315568b605b6bb26a41e3"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0014/certificate.json",
+          "sha256": "9ce833479296a63c25a8e47a4226bb6d8529d473d4d91d527181154051253b52"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0014/diagnostics.json",
+          "sha256": "8669ce6f553c95083f28fbfd9c451f248800b59a72791855efe117d6f79e81ed"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0014/logs.jsonl",
+          "sha256": "9e3b29c097d9c6e0321f61eed5aa073f42db5d7c4d6b180aff274b562e64cd2b"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0014/run_record.json",
+          "sha256": "720b775cee9271f3a183163257f263f21b1f62c50a31b8106a316e96327f982b"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T115715Z_0015",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0015",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0015/best_circuit.json",
+          "sha256": "89c16013ffd69f5fb97e45abd661498a40abc998f0845e4776a47e14f37ffc5e"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0015/certificate.json",
+          "sha256": "9cc34bbc2049261f6a2be50ff25242fd809fef483f66734045fd6cff802a4a6f"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0015/diagnostics.json",
+          "sha256": "c732a9b74087f164f1308b6c8db2dc3b747b2e5d8ad0332b1331b392ebaefcca"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0015/logs.jsonl",
+          "sha256": "0e5660ee8683a168dc75c04b0ad674da2e6c2128d714bf7314e5a162e9b3ec7a"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0015/run_record.json",
+          "sha256": "ccc48f9193279dc57d0a8ab015bf875ec60e02b7d4d130f1f9baaf20af492033"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T115715Z_0016",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0016",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0016/best_circuit.json",
+          "sha256": "89c16013ffd69f5fb97e45abd661498a40abc998f0845e4776a47e14f37ffc5e"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0016/certificate.json",
+          "sha256": "1557c4021c34385c2e897dfd8c45180ac90df61f49271ebbed0b0d2336392c57"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0016/diagnostics.json",
+          "sha256": "0a3b0c0f06e849e16596cbb4a111e1ac74345189591dda9ebde97ac24e5c3710"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0016/logs.jsonl",
+          "sha256": "0a4abf5115f013f6ab9946ceee070cf725f3f4797e5abe132fc2944f96eb25bd"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0016/run_record.json",
+          "sha256": "296f7b87d5c3565bb5ceed5ebd7432dffd3775e736ff07c6ea3519a2554b879e"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T115715Z_0017",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0017",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0017/best_circuit.json",
+          "sha256": "89c16013ffd69f5fb97e45abd661498a40abc998f0845e4776a47e14f37ffc5e"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0017/certificate.json",
+          "sha256": "faf897756e00ca63fe6cb633941294605c0e8a1ac73fd8681bd9376dc93b845f"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0017/diagnostics.json",
+          "sha256": "c1559aaab7a2a162ef0e8c3d16634495f3110e36ec86215968afdca611a0b96d"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0017/logs.jsonl",
+          "sha256": "aad5ed21a131ead930a7f2364d61be5e159b712de3a62e4ec342037fa8b04850"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0017/run_record.json",
+          "sha256": "740a10add078f1dd8480d9f24fc285c3cfe2d38927f802f4d6c9d1b3e9b6ddd2"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T115715Z_0018",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0018",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0018/best_circuit.json",
+          "sha256": "64a84a2c1c24a5373b44da76eaf73ca65e6eab96bfe4fa8f24dc00261742ef8e"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0018/diagnostics.json",
+          "sha256": "3f4b6202db9c196064b36cd9be745c8b845e83e22d5c5165f9a8780e171a5266"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0018/logs.jsonl",
+          "sha256": "3211490ab81a87fb1b0fa3bdfab65aaa971be31cd25cfd4f621b3588f05e5c1d"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0018/run_record.json",
+          "sha256": "231f3447d4361fb6a16b3bdf88cf3a7e5d9319b8bb43c76619045ebf271c13d0"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T115715Z_0019",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0019",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0019/best_circuit.json",
+          "sha256": "64a84a2c1c24a5373b44da76eaf73ca65e6eab96bfe4fa8f24dc00261742ef8e"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0019/diagnostics.json",
+          "sha256": "973ff01b5e42403817b777d38d6d249727850ee577940ed0fcd1062558fc5f52"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0019/logs.jsonl",
+          "sha256": "be501ba391d0c5826a1a2161f13ebe9afff87179865bb05ae2f3813a09b4937c"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0019/run_record.json",
+          "sha256": "36d5eee62be3de34fb4a641a0d9bacb9f2f129a3872d8368e83df8f17d5dc3eb"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T115715Z_0020",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0020",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0020/best_circuit.json",
+          "sha256": "64a84a2c1c24a5373b44da76eaf73ca65e6eab96bfe4fa8f24dc00261742ef8e"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0020/diagnostics.json",
+          "sha256": "abcbcf92c9ee0cbc4a5afa9fc75f64e78f9cdb5254d287abbab181f25b5021b8"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0020/logs.jsonl",
+          "sha256": "f0db930a1efbb2e1e1b3cf53d9d8b87c8ab8b956f168e8cbe16e8795fe166320"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0020/run_record.json",
+          "sha256": "8186ee9e2aa506bce13ea6ddb0290fb7220b3bafc07146599e1872c94545404b"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T115715Z_0021",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0021",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0021/best_circuit.json",
+          "sha256": "c2aca40496d5237fb5af7e51cb62aeadde069a755fc08edd68baf2430767f0e3"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0021/certificate.json",
+          "sha256": "eb5bef6aeacb476e5f36d569f53fdcc903304ba2abe681955221bcbda0efce79"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0021/diagnostics.json",
+          "sha256": "f7bf4717526f94ff68454ac0ab3ba402450a138acbf9b8838738479e1346b98b"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0021/logs.jsonl",
+          "sha256": "db6f8da954ee1102efc9ac6d8223c5ebe48c044f08be9f32d964fe04163164fe"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0021/run_record.json",
+          "sha256": "e198c4d74f72980b1b017d4192ec5756a16505bc7033beb1e8ce8d7d6f60195b"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T115715Z_0022",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0022",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0022/best_circuit.json",
+          "sha256": "c2aca40496d5237fb5af7e51cb62aeadde069a755fc08edd68baf2430767f0e3"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0022/certificate.json",
+          "sha256": "c2f7d3146ca7c89b5ee28b9591756a532bc35736adfef8c80fb1d7d86d31c5e7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0022/diagnostics.json",
+          "sha256": "96667a99aebacd5b938460bf1b257460be3943d9873ab07dcea52ea431062318"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0022/logs.jsonl",
+          "sha256": "d9b9df87f6e285578f65d326c4dfc8e7c5d0e86f74ba46ab3d8377bea9d300d4"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115715Z_0022/run_record.json",
+          "sha256": "2c81034448eb92a2b8e867af254e84b1aaf1e0bce657ff279a95d3a1cc1dd668"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T115716Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0000/best_circuit.json",
+          "sha256": "c2aca40496d5237fb5af7e51cb62aeadde069a755fc08edd68baf2430767f0e3"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0000/certificate.json",
+          "sha256": "a72f504336e2278e90705d22062439a0f63135117a74380cb18eedaa46cea570"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0000/diagnostics.json",
+          "sha256": "8c696bcb50f901aaabb3643aec81e0c70cb11dcc8d134d31411fcaa740422141"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0000/logs.jsonl",
+          "sha256": "85a15f2f318fcb6f8a72e9e16e4568de0c86889bfd4fc8993b75e548284f941e"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0000/run_record.json",
+          "sha256": "605bc5e894d5648afba5724f64d1f42074ac6bc99cd8866b49b26a698a21e02f"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T115716Z_0001",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0001",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0001/best_circuit.json",
+          "sha256": "c7f343212ee668e2059fc6812131818c3450a3e33d8969856f58ef953eb2916b"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0001/certificate.json",
+          "sha256": "3efe0a49483bb33e1e9da161cb6ac4c339881aa137901b998bc351cffd948bfd"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0001/diagnostics.json",
+          "sha256": "71fbf428a2d3d794c9cfc67efd564f2f4737bbd462a1c0079ccc50a74e4fde6b"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0001/logs.jsonl",
+          "sha256": "b5ef88cf00ba2bbfefba0be303cbbede9b5c154ec21b608f048bfc2d470ef825"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0001/run_record.json",
+          "sha256": "d535da615ea88660be0f59c9b36d99585ba003a502e98e167b8e18a271bf0a00"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T115716Z_0002",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0002",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0002/best_circuit.json",
+          "sha256": "c7f343212ee668e2059fc6812131818c3450a3e33d8969856f58ef953eb2916b"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0002/certificate.json",
+          "sha256": "1748c3f6b401092e3ff818fccfc44efc1865c0f6524bc09b29ae91c1d8b6944b"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0002/diagnostics.json",
+          "sha256": "73835f974901ff189e62967550bea22974959f20df7560443bbac586e4527ffd"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0002/logs.jsonl",
+          "sha256": "3139fee4dceda50cec6be921a4931dc98afbf9fa9471e0a76632428111248f19"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0002/run_record.json",
+          "sha256": "c1e7fb44819fb5deda2d077820698fe6e84d1c6a8a7d8a11952d40833921a29e"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T115716Z_0003",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0003",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0003/best_circuit.json",
+          "sha256": "c7f343212ee668e2059fc6812131818c3450a3e33d8969856f58ef953eb2916b"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0003/certificate.json",
+          "sha256": "94c4035756fbf4f35fbc5af229f453a6dcab83299eb80981fbcb38b602e80ab6"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0003/diagnostics.json",
+          "sha256": "4bafe73e67b611f40931c0d07e251daba62cae4c1fa8c6ef3047f848a9863b9f"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0003/logs.jsonl",
+          "sha256": "37c62b24cea25eba6598541f7b8f262fefd2ddf301a2be552a98f04995e5462e"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0003/run_record.json",
+          "sha256": "12cf924589a3069e8b09b1852e3467fb65439ca3a9c5d332fdd032957db61608"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T115716Z_0004",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0004",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0004/best_circuit.json",
+          "sha256": "e651677986122100c95ebf1cfe739956b414266c6aaf952a662bee87961504ac"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0004/certificate.json",
+          "sha256": "b9ded2841abdb93142d7bafc0ba5fc6a392a87442bd49b5cdc345d48c64b1528"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0004/diagnostics.json",
+          "sha256": "2628075a65b4ade11ba2438f84d485ec4d9eb8145436ecfb8d65316f75cfbdb8"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0004/logs.jsonl",
+          "sha256": "afcd3828eacce294c1a20905219ba645e890456df590c31b17199431fd281cce"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0004/run_record.json",
+          "sha256": "4db7f1f9409c1c05515c38b15407f2931140030f5143801a0b47d995b26a23da"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T115716Z_0005",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0005",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0005/best_circuit.json",
+          "sha256": "e651677986122100c95ebf1cfe739956b414266c6aaf952a662bee87961504ac"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0005/certificate.json",
+          "sha256": "f126f912b54cad0334a8f7f2220aa1a2a1288f564dedaf94562e34f832a8110c"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0005/diagnostics.json",
+          "sha256": "e677a7073038a590517f6e3a804ba9a76330930afa2d04b468dd20c8a10aa1e4"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0005/logs.jsonl",
+          "sha256": "5fcdd22fb2019fed62415d2e142c131b6c65ffff81d2abd91069b5d61d1b3ea3"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0005/run_record.json",
+          "sha256": "3d5771f0ee102bbe1629d3e067aa164e4b67e58fa829b8e39a19b94bf23e50db"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T115716Z_0006",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0006",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0006/best_circuit.json",
+          "sha256": "e651677986122100c95ebf1cfe739956b414266c6aaf952a662bee87961504ac"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0006/certificate.json",
+          "sha256": "9ab0d38b55a0cb3662bb219a373b22ea79d77a0134f9adfa4e8e6997f69f409d"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0006/diagnostics.json",
+          "sha256": "66bc992b3c5435133f95fe2b09b40cb15a36da26d20d5d37e7c7a5c616f28905"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0006/logs.jsonl",
+          "sha256": "1aca50c048ae62ced53f2af0655d02f6dbdd9aa5834c12b9d99ba71f937a6d1b"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0006/run_record.json",
+          "sha256": "3b06e32eb43de7fdfe3d53a1dc4a29b374cccf2ab8f7ede43a6fc531e53de6f3"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T115716Z_0007",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0007",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0007/best_circuit.json",
+          "sha256": "8c593502516fa288e63b4a04b9f7a2d173b37c59b0f95cdb7e8e083ae19a7b8e"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0007/diagnostics.json",
+          "sha256": "61a22ffda395e72644f928e07476365608e7a1685bd7e4fbd2fd511a9ee8532f"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0007/logs.jsonl",
+          "sha256": "5de0c8449fd36896725155701d195ddb7bca4f9b4da752548719e359d45cf1b8"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0007/run_record.json",
+          "sha256": "f9651c78209059a38d3e93aaabc6339da9f5c720be062df16396d25554eb1628"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T115716Z_0008",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0008",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0008/best_circuit.json",
+          "sha256": "8c593502516fa288e63b4a04b9f7a2d173b37c59b0f95cdb7e8e083ae19a7b8e"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0008/diagnostics.json",
+          "sha256": "a96b9692980f58f7ba941f507657fb05fc1428de5907c4957dbf5dbb36a2e821"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0008/logs.jsonl",
+          "sha256": "b58ff1c603b65f24d618d46bba195b056dbdf3ab0d107006993b4a85a8c887eb"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0008/run_record.json",
+          "sha256": "35887598a233496d5852cf0a092979955bdbcce0df5cebb811d0b58bcaa38b04"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T115716Z_0009",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0009",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0009/best_circuit.json",
+          "sha256": "8c593502516fa288e63b4a04b9f7a2d173b37c59b0f95cdb7e8e083ae19a7b8e"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0009/diagnostics.json",
+          "sha256": "1754de33d1ae574dbf996eb65ef8612485e2f619a4465237b6a7d1220daee967"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0009/logs.jsonl",
+          "sha256": "3bddee6a6c67d965ebb209509cad49ae9b6ebaa3b2cf8187b764a6b8023a452c"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0009/run_record.json",
+          "sha256": "d28bd04af18f6506caa3634d078a3c6e3ca8360b551e32d178ed5911dddf6f3a"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T115716Z_0010",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0010",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0010/best_circuit.json",
+          "sha256": "0391689c00c0b998bf1c413efdd355cd993a77228551e98ed8b1a23f5df415dc"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0010/certificate.json",
+          "sha256": "cf3c0db52aa2029c13d7643e8affefa5909d230104b1309199fb524f6b0d349a"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0010/diagnostics.json",
+          "sha256": "de7c0f0ccb300b01418daa07cebf73d14c2b4e009854ca5ee0da2d34843a81ef"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0010/logs.jsonl",
+          "sha256": "ab73aaa313277abf55daf7404eb684b877299159d2d9d85b2578c3c3f0912986"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0010/run_record.json",
+          "sha256": "b8337c43817d0fb52c4543d3034bdb0db707d49b7ac4785cb84957a4c3c02a42"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T115716Z_0011",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0011",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0011/best_circuit.json",
+          "sha256": "0391689c00c0b998bf1c413efdd355cd993a77228551e98ed8b1a23f5df415dc"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0011/certificate.json",
+          "sha256": "d7603ab53c42bd3915599ac5c71d8875355ded349962e3daee1017b30e08e10e"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0011/diagnostics.json",
+          "sha256": "bfe2f48c73294d29eeeb70e21567c4bc9614b6e23b0dd2baf7c71333c2493416"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0011/logs.jsonl",
+          "sha256": "bd890bd765f7e412afe40251e7d21bb23026b8e387270aedcf56f5886b0c6da9"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0011/run_record.json",
+          "sha256": "c453491a390e7c83c9a02cd0f33e5e7b75d91cb8595867022dc4445e744b2a87"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T115716Z_0012",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0012",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0012/best_circuit.json",
+          "sha256": "0391689c00c0b998bf1c413efdd355cd993a77228551e98ed8b1a23f5df415dc"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0012/certificate.json",
+          "sha256": "d289e719be44ce741573df83a6b24b539ea6286005483798ee64d77415a94ccb"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0012/diagnostics.json",
+          "sha256": "f8ff9f58c765bfd02bb579d1e39034aee689b6ed8b606c09c343f08c3d9d88aa"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0012/logs.jsonl",
+          "sha256": "2013905c64bee428cd118f22d122885c7e0f26cf7e5e941b06115afb1be3b936"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0012/run_record.json",
+          "sha256": "f8eb97cd134d490a2512ee8b68d12b72c8d4af4348c9610c44ed64a644d4e2a1"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T115716Z_0013",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0013",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0013/best_circuit.json",
+          "sha256": "54bcd50b84aa7b02419d9902f32508387c23a045f5c5c6f7e23a0c1931da7a21"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0013/certificate.json",
+          "sha256": "f7ab137ac919dc86063ae1448cec92500520240e7faf04aeeb9bacd9e2628719"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0013/diagnostics.json",
+          "sha256": "d9905959b885ff96e22855342cc01dc2b4599eb80f774a5535fb23d0df0351ea"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0013/logs.jsonl",
+          "sha256": "e8fb83b569fba5f6059c9ed3f50c9c323a3f5a77366fa2148395cd1a41eb4bd2"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0013/run_record.json",
+          "sha256": "7b38534c7e3618fbf3f4fffedee5184fbf6042d69b6072b57a4ef6cfadac0d4e"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T115716Z_0014",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0014",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0014/best_circuit.json",
+          "sha256": "54bcd50b84aa7b02419d9902f32508387c23a045f5c5c6f7e23a0c1931da7a21"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0014/certificate.json",
+          "sha256": "10174fafa91c794822ea6e0785658190fdb8cb461b1c10776eb72f800bb97485"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0014/diagnostics.json",
+          "sha256": "dd019fcfbee237407f0b63132ae18efd80d651a68c68eb5886d9e0b5dbd2ec6d"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0014/logs.jsonl",
+          "sha256": "0611f11eb64754829b1e1fef56fb357f13b465a9c516d815df6251c0ebe302e7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0014/run_record.json",
+          "sha256": "c23cb368e252f4239a8d2f18b3b29e0a5251b5e7643ea985c86bb95262b379bb"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T115716Z_0015",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0015",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0015/best_circuit.json",
+          "sha256": "54bcd50b84aa7b02419d9902f32508387c23a045f5c5c6f7e23a0c1931da7a21"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0015/certificate.json",
+          "sha256": "6ef15be5261e10bdeb129c9805e2f1ff11fcd4bcd9aeda806bd9bd3d7ec559f8"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0015/diagnostics.json",
+          "sha256": "1124a244938ce5c449cbff6c383494c2c3f5db79dcc1aa960694f063ecdf834f"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0015/logs.jsonl",
+          "sha256": "b168da078057f2ba6c53b8314913ad2cb7a2174fc1a816420a72dde42c07bf36"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0015/run_record.json",
+          "sha256": "0c12155d9cfd8f7afcd2f3fa6f4447f72bc1c57d06877fc1e8bd2708392bcd31"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T115716Z_0016",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0016",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0016/best_circuit.json",
+          "sha256": "c60317b666d874245d6dfe907ae3184afc37472c950029e4149a53361ba7df60"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0016/certificate.json",
+          "sha256": "5df27b8c7b1288ff3f8e8ad1c83d1e2683cdceef6dc2b41d8580cefa0829d4b0"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0016/diagnostics.json",
+          "sha256": "933a924f28570e661b258a408f832cf912486aaf055bcf5689f07dc3ae76eeb2"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0016/logs.jsonl",
+          "sha256": "df0ee2b187d2a64fd64ceb2bf101f373968f7ac7752a36f99c79b82d9ef4c9f2"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0016/run_record.json",
+          "sha256": "656642f08ed790d95e4d0c0691c346f16653b0109754bfa16ef60d2c8cbbdb0a"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T115716Z_0017",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0017",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0017/best_circuit.json",
+          "sha256": "c60317b666d874245d6dfe907ae3184afc37472c950029e4149a53361ba7df60"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0017/certificate.json",
+          "sha256": "b927f1761b003a537236038d1fd0516f90cc0daf6975615034183724fd4dcaba"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0017/diagnostics.json",
+          "sha256": "1b25c501ee13de4f34dfa6e85e123ecdfb9e30044409b73731db11808f5293e7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0017/logs.jsonl",
+          "sha256": "a24db0e1ebb37334506e5d73ef2cb83195c5d5cfc68babd06756e5599ad9e043"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0017/run_record.json",
+          "sha256": "88fcb1ed6f9e04b875caa3f9641c9380a37dbd6af91b98af805fcc1d6643d712"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T115716Z_0018",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0018",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0018/best_circuit.json",
+          "sha256": "c60317b666d874245d6dfe907ae3184afc37472c950029e4149a53361ba7df60"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0018/certificate.json",
+          "sha256": "f16f57fbe1c51cc8274bfbe0b24289be2896570501370d8ca464a5b7a8217e54"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0018/diagnostics.json",
+          "sha256": "c66372c1c335f651de5806d062990b79420efe0af50908b99e01974dbd268eeb"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0018/logs.jsonl",
+          "sha256": "8f313cc81d36a6a25aee577b79b6d892afdc881c6ee1b58426c19d4c97ae441a"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115716Z_0018/run_record.json",
+          "sha256": "869eac5073dfd01eddf6ffd7eb428b596345939181b895d63df3fe6472b7079a"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T115812Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115812Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115812Z_0000/best_circuit.json",
+          "sha256": "d633cac45ef668f105d93a309382a3ef9b96759e95199cc0f2fd943055c6c119"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115812Z_0000/diagnostics.json",
+          "sha256": "8ec3bce5d2f5c2643bf295e26a3ebaef65192238411052b56cf9ff0d85610cec"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115812Z_0000/logs.jsonl",
+          "sha256": "a1e2ec3e953e80ed11f9208b24c2c5e1e032b74bb4729b1e3cf13da98a16427d"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T115812Z_0000/run_record.json",
+          "sha256": "3a99bbe8e92c7fe8055638979d67469822c73610dc48941ad5af5d7f7bb12671"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T120323Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T120323Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T120323Z_0000/best_circuit.json",
+          "sha256": "d24975057b77cf1faeff4ee998ab24f35ad6e8b9a2804869148cc7711582b3c7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T120323Z_0000/diagnostics.json",
+          "sha256": "2e70aec78a40d8911377d616bca315a0ad3901d10e70c8f37dd3a894e29bd3d3"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T120323Z_0000/logs.jsonl",
+          "sha256": "c0624e3edff7cf05a14a714c0db336de91db884f08821b31cd4640067c405582"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T120323Z_0000/run_record.json",
+          "sha256": "509e593e63ca32158fc960287f1c7dcd0003bdaef09326f1f9597bba4daea01f"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T120323Z_0001",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T120323Z_0001",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T120323Z_0001/best_circuit.json",
+          "sha256": "d24975057b77cf1faeff4ee998ab24f35ad6e8b9a2804869148cc7711582b3c7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T120323Z_0001/diagnostics.json",
+          "sha256": "bf27b8657cd93b63c84972ac829d9666644eb1206e92d61fc36a56327825d3e7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T120323Z_0001/logs.jsonl",
+          "sha256": "46cd8897d6c833fe36159912b12b82445bee7927759672eb8e118b6281de858e"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T120323Z_0001/run_record.json",
+          "sha256": "c791a4da8e37bd8c5ff821cbc1c76d6d4025deca126b2500199d578d8b60306c"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T120558Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T120558Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T120558Z_0000/best_circuit.json",
+          "sha256": "b4f5681840941de0e34cf9c4f57b434eab6e487da02031517501b3a3cf8873be"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T120558Z_0000/diagnostics.json",
+          "sha256": "c1d5a2d10efa61dec6f8ea1a6c9f92ae97ad0a2e74f1b67e33a28ce23d816d36"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T120558Z_0000/logs.jsonl",
+          "sha256": "4767bbb4b03512e4053c5e7a51c047c68902f27184b6e9039d527b67fd0fb069"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T120558Z_0000/run_record.json",
+          "sha256": "0ef4bec0f23150b22d841ade2c573d42d2755f0631ac2ba8b8e089f3a87b8549"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T121155Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T121155Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T121155Z_0000/best_circuit.json",
+          "sha256": "d24975057b77cf1faeff4ee998ab24f35ad6e8b9a2804869148cc7711582b3c7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T121155Z_0000/diagnostics.json",
+          "sha256": "8241129d653d4339ab6848f6d7c45d9c21fb4827dc943e43014472b5d945811b"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T121155Z_0000/logs.jsonl",
+          "sha256": "05c7aa0359dedd9ea3d019bc9108b3d0aafd477a105d36709d00790b60e0d15c"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T121155Z_0000/run_record.json",
+          "sha256": "4126a99e09e6171a3cd6d7d7dd9501ecdb02aa0349d7613250c8e7adeaa8f959"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T121155Z_0001",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T121155Z_0001",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T121155Z_0001/best_circuit.json",
+          "sha256": "d24975057b77cf1faeff4ee998ab24f35ad6e8b9a2804869148cc7711582b3c7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T121155Z_0001/diagnostics.json",
+          "sha256": "231e05f350c2b8b7a6e81deaca2e7ce7d79eeb365c1c1063bc9c831615cb1b99"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T121155Z_0001/logs.jsonl",
+          "sha256": "a6f30e26a7ac4a8a3f240f96443f127d35cc03b8aaa114593b5b1e181a75ad5c"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T121155Z_0001/run_record.json",
+          "sha256": "56835aadb53681d7efb0986a19532c47b669764532ad84dcc13f93264502321a"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T121330Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T121330Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T121330Z_0000/best_circuit.json",
+          "sha256": "d24975057b77cf1faeff4ee998ab24f35ad6e8b9a2804869148cc7711582b3c7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T121330Z_0000/diagnostics.json",
+          "sha256": "ee8f3ed4b3f03b205ecad98e3b1c91b89ffdb88a6fa45af5ae50981519246131"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T121330Z_0000/logs.jsonl",
+          "sha256": "c728a992bdd251e4803773222819b45cd61d018316b69f5d4e6c726ecb5dee23"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T121330Z_0000/run_record.json",
+          "sha256": "d9bd8fe36cb95ac068345ff8c8ab627ed197b0fefd3e309981ffd90dc017eabb"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T122416Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T122416Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T122416Z_0000/best_circuit.json",
+          "sha256": "d24975057b77cf1faeff4ee998ab24f35ad6e8b9a2804869148cc7711582b3c7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T122416Z_0000/diagnostics.json",
+          "sha256": "0962091bc3255760d8998b640168e9bc93568f6ca1bfc29e6bb4f7b097300627"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T122416Z_0000/logs.jsonl",
+          "sha256": "2e5f592618f0c0c3fcc2984debc48ee0971204804ff315864b33b4407241172b"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T122416Z_0000/run_record.json",
+          "sha256": "93f34d7b0a30074e075fd940ec08d9ca3e644c7f6779b22721988e736a8c1452"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T122416Z_0001",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T122416Z_0001",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T122416Z_0001/best_circuit.json",
+          "sha256": "d24975057b77cf1faeff4ee998ab24f35ad6e8b9a2804869148cc7711582b3c7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T122416Z_0001/diagnostics.json",
+          "sha256": "ccd9395d60f71332912ecdc3fd372923db50e072e9c369002ad69e6aee1271df"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T122416Z_0001/logs.jsonl",
+          "sha256": "adce532d1b1394884286af04bfa3c3a3e8085fdd46a019edc421af953efffff1"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T122416Z_0001/run_record.json",
+          "sha256": "facc1d83ae501051478736fea2be437e179afb3c4fa3c613bc32b68289f39f8f"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T122752Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T122752Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T122752Z_0000/best_circuit.json",
+          "sha256": "d24975057b77cf1faeff4ee998ab24f35ad6e8b9a2804869148cc7711582b3c7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T122752Z_0000/diagnostics.json",
+          "sha256": "8bef3cbd467df9c41dfc64d844ca55e3af65ac35a3ede2b01b521eeddf194254"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T122752Z_0000/logs.jsonl",
+          "sha256": "9f5cda71317bd4cb01ab922a472a9feef7f07c2c71f82829770c1c112a32d010"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T122752Z_0000/run_record.json",
+          "sha256": "103c011f2afdc6fc0a4ee7b7e97fe8390b394031e201380f5f5a950f3b825968"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T123926Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T123926Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T123926Z_0000/best_circuit.json",
+          "sha256": "d24975057b77cf1faeff4ee998ab24f35ad6e8b9a2804869148cc7711582b3c7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T123926Z_0000/diagnostics.json",
+          "sha256": "d0041772373351898cf5ea571ead90148dc8b078252f751cc6b58e3aeb3ce7a8"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T123926Z_0000/logs.jsonl",
+          "sha256": "f96380a59792315050a7333d27a9d1e07d277a65a0bc5327f6c4f6d4941bc294"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T123926Z_0000/run_record.json",
+          "sha256": "2537f0fbddc234bef582fb9e086d37df900e272c3a064e79289ffb777e56d591"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T123926Z_0001",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T123926Z_0001",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T123926Z_0001/best_circuit.json",
+          "sha256": "d24975057b77cf1faeff4ee998ab24f35ad6e8b9a2804869148cc7711582b3c7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T123926Z_0001/diagnostics.json",
+          "sha256": "fc39064def52b43d31d0e17940af60e5816b128361ce20708887a5703a8af8c0"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T123926Z_0001/logs.jsonl",
+          "sha256": "ac9487b9da69639865e6aefcc3a44c48baea8ebbc5e5bfbf070d247672d19cfe"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T123926Z_0001/run_record.json",
+          "sha256": "246be54e293bdc08b5130e8a1a58b40f912b202a1adbe1cb29464e4896f8c2a5"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T124303Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T124303Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T124303Z_0000/best_circuit.json",
+          "sha256": "88d1cc049d02594f7d44cdb50a434249d82bf407ab120e71b20de490863b5664"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T124303Z_0000/certificate.json",
+          "sha256": "a0b772df3821df683ce25ec30534d684a9e5c28f9ea42687d9e0343b9e5cc436"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T124303Z_0000/diagnostics.json",
+          "sha256": "0cd51d3de6f1c75415d9a13e14637829e736df1657ea389f5eb4b0cb2da1e1c0"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T124303Z_0000/logs.jsonl",
+          "sha256": "dd5b23ff43646b7e529c9075461d8a665dc88760499504bd03f4669acbaf6ad1"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T124303Z_0000/run_record.json",
+          "sha256": "69c8b7a87eaf56309c171579e2090c0b15000fe5ea93fbaac07c2f0283f82345"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T124812Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T124812Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T124812Z_0000/best_circuit.json",
+          "sha256": "d24975057b77cf1faeff4ee998ab24f35ad6e8b9a2804869148cc7711582b3c7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T124812Z_0000/diagnostics.json",
+          "sha256": "6fae2d43a38093b39084ecf40f19dfccdb8ffa0a9817cf67ff7a70807cad769b"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T124812Z_0000/logs.jsonl",
+          "sha256": "b75567e056c3fc800e312eb09b3e2de31941bdd1f75bd250216d11024ed4e160"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T124812Z_0000/run_record.json",
+          "sha256": "2257a00c7df0074ec285c83454511939039971b9cd21aff5e28e40e497141986"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T124812Z_0001",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T124812Z_0001",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T124812Z_0001/best_circuit.json",
+          "sha256": "6d3411b976723d0e639a09915ae8eb9375e740e59e79f1d23498086c6587947e"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T124812Z_0001/diagnostics.json",
+          "sha256": "086afb5ea878fe1357206fc1269e7d4cfb13fb01cc85e29f67fea325674a850d"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T124812Z_0001/logs.jsonl",
+          "sha256": "382d36f79330d8ae89be073eac119bef0a2b74c55162b9acdc389c8fbdb79d22"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T124812Z_0001/run_record.json",
+          "sha256": "1aa39357e5fa5dc8ccfcf9d9037e13198a65afdae80c81e7bac12d9d9b09b26e"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T125128Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T125128Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T125128Z_0000/best_circuit.json",
+          "sha256": "fb2b5ee64019301d0751e9cb20dfc80cab5cbf21b4b575d4a4a5c98908669998"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T125128Z_0000/certificate.json",
+          "sha256": "153ea4ca511a04ebd02263f4f25fbe7763a8ec39dae399fc3baa14f1f3f54e10"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T125128Z_0000/diagnostics.json",
+          "sha256": "cc891ff899a318425be31b5dc3e3dab7824a2c2632e82a76349177a42e98fde0"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T125128Z_0000/logs.jsonl",
+          "sha256": "c170036b9dae78b40ecbb306bb965c3685ea04e05dd5f590b3ce2b141ea5c4e4"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T125128Z_0000/run_record.json",
+          "sha256": "2b2a0446c7751d96361f7ccf92ca0ed8a6f05d77017a6eec827d6673196bcb6e"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T125600Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T125600Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T125600Z_0000/best_circuit.json",
+          "sha256": "d24975057b77cf1faeff4ee998ab24f35ad6e8b9a2804869148cc7711582b3c7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T125600Z_0000/diagnostics.json",
+          "sha256": "21e2c069b4a2e7b9efd29dbb13a48a26c7ce059ea6231f3b84c53196c8a686b3"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T125600Z_0000/logs.jsonl",
+          "sha256": "c4e746a6ea371a964757b33e7f8c858f2dba3d24dba4f608e88f650100824868"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T125600Z_0000/run_record.json",
+          "sha256": "9ae9b218eaf367575bbaa6da3a16b713d3a8a1f113d615ed72106776ea1be42a"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T125600Z_0001",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T125600Z_0001",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T125600Z_0001/best_circuit.json",
+          "sha256": "91e0e8a8038df4cb2d47cbf91b8524ec42aa1e41f65384b14a66d6f12c9be586"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T125600Z_0001/certificate.json",
+          "sha256": "dd9a5b4d51cae7d132a10141cbcff70abe8bbd8d7e3c9cb790cc90e413f7b4bd"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T125600Z_0001/diagnostics.json",
+          "sha256": "278ef4cb25025e958c9616132306e12a4e877816d7136889971db54f4b81b19c"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T125600Z_0001/logs.jsonl",
+          "sha256": "7870c0033b69c38b26b18c40b172095c32e3a6845606dadb7a1da8a2a037658d"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T125600Z_0001/run_record.json",
+          "sha256": "98721e54423a9f434357e2b79485a1a5edaadd232cc7dc091b08fe7b5d1ff6db"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T125743Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T125743Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T125743Z_0000/best_circuit.json",
+          "sha256": "b60710af1bcf013ddc324f084c1be21f3c99c87fdb96ceeadd789c234203ee65"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T125743Z_0000/diagnostics.json",
+          "sha256": "f522e4ca5ad45313da2563558072fcbc2d7a0d6edaa6272ec4daa6184a3721cf"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T125743Z_0000/logs.jsonl",
+          "sha256": "ba20cedc7ae3d378232f396d6f4bda6f93b0563f10adc1ccf606a3d1dfb19a15"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T125743Z_0000/run_record.json",
+          "sha256": "e7584606d1a059129658f668e6dcde54a54382afef2154e1110cc308c1c648bc"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T130320Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T130320Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T130320Z_0000/best_circuit.json",
+          "sha256": "d24975057b77cf1faeff4ee998ab24f35ad6e8b9a2804869148cc7711582b3c7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T130320Z_0000/diagnostics.json",
+          "sha256": "39e65333e48241ee7bf1541edf5909b436724ad776d1fdfd9cb76893636b18d9"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T130320Z_0000/logs.jsonl",
+          "sha256": "ecc7fe7bb300e5860561c4ea7c4a5544e85ad0e626b78add6e44bc99c8666dcc"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T130320Z_0000/run_record.json",
+          "sha256": "828b76dfcc7f1d665747756ee47779f4aa387320e5684d7affecf5ed5a5be2b7"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T130321Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T130321Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T130321Z_0000/best_circuit.json",
+          "sha256": "d24975057b77cf1faeff4ee998ab24f35ad6e8b9a2804869148cc7711582b3c7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T130321Z_0000/diagnostics.json",
+          "sha256": "29f7ea769a9621411fbc5cb8e754d4baf80168c43a3617930e64f336d8c6b808"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T130321Z_0000/logs.jsonl",
+          "sha256": "57ac01eae37e4204ae6509e59d42de80f6acb7c6fcd02310fc36e8426aba4bde"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T130321Z_0000/run_record.json",
+          "sha256": "ba375c2d6c34fe38ea2c529482cf8de10830988c036ca1073ee426e0192c1438"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T130509Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T130509Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T130509Z_0000/best_circuit.json",
+          "sha256": "54e35927e42db261cba023b711d7914e5ec337ef765d45caf294aca4dff7d8b8"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T130509Z_0000/diagnostics.json",
+          "sha256": "0851875ec20ac3d116377e7fc28fa361987f98fbc97bfda0948078ec1b77f588"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T130509Z_0000/logs.jsonl",
+          "sha256": "2298a1ef2dfefca28edad40eb14ebc8d82bc0278623467c7f1a6b3d88520e134"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T130509Z_0000/run_record.json",
+          "sha256": "aa5b3d165bab6d294ab44cae8e487b59c30d0d7acf2d0cfa1c80ff584a497445"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T131025Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T131025Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T131025Z_0000/best_circuit.json",
+          "sha256": "d24975057b77cf1faeff4ee998ab24f35ad6e8b9a2804869148cc7711582b3c7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T131025Z_0000/diagnostics.json",
+          "sha256": "21981026e40206e64f8cf6ced1d3c090b485256c0a5197cc7d07cb557283cc9f"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T131025Z_0000/logs.jsonl",
+          "sha256": "bbb75b2e74cb510864fcc17c05915e60ae006d90b15be291c4e036dfa201812f"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T131025Z_0000/run_record.json",
+          "sha256": "77d3d82e1b1985de367d138d2681e8726fc3c0c3d246db68ecab4afef4af2e56"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T131025Z_0001",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T131025Z_0001",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T131025Z_0001/best_circuit.json",
+          "sha256": "d24975057b77cf1faeff4ee998ab24f35ad6e8b9a2804869148cc7711582b3c7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T131025Z_0001/diagnostics.json",
+          "sha256": "e43f4d55d5d17860db374b521b5f8c29efffe73e73ec1362e46e717463356b99"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T131025Z_0001/logs.jsonl",
+          "sha256": "d1e139d42afc372d56a3cc50459f0b3c49e37bb966bc5d112bf2da1fe1bcd2e9"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T131025Z_0001/run_record.json",
+          "sha256": "df4592e21df7160d0c4aa1f2c32a49d0d6eeba72e4de50aa8666c6d0f112ae2d"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T131154Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T131154Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T131154Z_0000/best_circuit.json",
+          "sha256": "033730ffe3007e35426a865871f890647b27fb5d2c9e7f008efd12cd818c4e5a"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T131154Z_0000/diagnostics.json",
+          "sha256": "3fdfcee0be120569c606b3e293fbb3631ede52c36a29d1caae8bc3f9ed67a887"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T131154Z_0000/logs.jsonl",
+          "sha256": "c6ddf153248fca4deaa3a92972504cfe2d1310f67351cc8d7a72146540b79685"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T131154Z_0000/run_record.json",
+          "sha256": "87e538685dd722e38d9393800efc1945e3fc379483e700c6aee829480f0c7e5c"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T132224Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T132224Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T132224Z_0000/best_circuit.json",
+          "sha256": "d24975057b77cf1faeff4ee998ab24f35ad6e8b9a2804869148cc7711582b3c7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T132224Z_0000/diagnostics.json",
+          "sha256": "f080b54c30b4309f6a89383e51c3c05727bd3d821ce2ae91f76b238e8a3d364b"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T132224Z_0000/logs.jsonl",
+          "sha256": "5011a89e508130497684af9e08e848ade8e4aface7826463191b23f4e24900fa"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T132224Z_0000/run_record.json",
+          "sha256": "accbf599dd9d7a63c397ceeb3439b0b2bddbc03463a4d9f775df75a00296de60"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T132224Z_0001",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T132224Z_0001",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T132224Z_0001/best_circuit.json",
+          "sha256": "d24975057b77cf1faeff4ee998ab24f35ad6e8b9a2804869148cc7711582b3c7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T132224Z_0001/diagnostics.json",
+          "sha256": "a7e9c4d041d80e15fda784cbcd2e36d09b577939f3ad1b583525f34abe0a2d20"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T132224Z_0001/logs.jsonl",
+          "sha256": "9e901b7f48fa761996285a4939d2f5808f4e59b9b1abf737b6b22beb84a36e6e"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T132224Z_0001/run_record.json",
+          "sha256": "7776d20244236c372e2fac5d2266aec2b0155b4e24150ea63443925eba772b08"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T132602Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T132602Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T132602Z_0000/best_circuit.json",
+          "sha256": "d24975057b77cf1faeff4ee998ab24f35ad6e8b9a2804869148cc7711582b3c7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T132602Z_0000/diagnostics.json",
+          "sha256": "a7ece2ea299df3916e1dded4806c8abcf49483f2650c72aca0929842aba690f9"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T132602Z_0000/logs.jsonl",
+          "sha256": "2a848bc15634977def1e0e4b8588cd9cdf4cafee8b7330326ab9d330dad5a2a5"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T132602Z_0000/run_record.json",
+          "sha256": "076dd91269e13053fb1d9f2cc964ccb0ae331a4ad411e3dc54d813d3d0730c68"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T133652Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T133652Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T133652Z_0000/best_circuit.json",
+          "sha256": "d24975057b77cf1faeff4ee998ab24f35ad6e8b9a2804869148cc7711582b3c7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T133652Z_0000/diagnostics.json",
+          "sha256": "c94f53419bbfeac5760d7f82a8048d17c404009ced74b02693a8d2d2481f3dac"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T133652Z_0000/logs.jsonl",
+          "sha256": "7a416f3f563c535fbed5f36bcb3826effe2dff7db34ce2e979123101cd3af9f2"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T133652Z_0000/run_record.json",
+          "sha256": "2c4067abbf82d1742686c735178781a5117daee6fb3a7eeca16275e4f73e68fe"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T133653Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T133653Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T133653Z_0000/best_circuit.json",
+          "sha256": "d24975057b77cf1faeff4ee998ab24f35ad6e8b9a2804869148cc7711582b3c7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T133653Z_0000/diagnostics.json",
+          "sha256": "367fafe2341298f75e48660c5b80a0320d207a904076ae86e9ad7348ab405b40"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T133653Z_0000/logs.jsonl",
+          "sha256": "e0d129817d349697e9a886d40864759375aac5022a280170e0d34c42d8e2ecaf"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T133653Z_0000/run_record.json",
+          "sha256": "ff354aaa8a67670bf724789bdae36e0d9cf7d062df065a92eb3f4b1af78a33f5"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T134148Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T134148Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T134148Z_0000/best_circuit.json",
+          "sha256": "444c487e41fcbd9c1107ae4d376419407475b7998e7b20d68192e993db6e488a"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T134148Z_0000/certificate.json",
+          "sha256": "dded900a8565961af9aeaaad8384256b3d2d0c72ca494fb8a99e1a609fd53a9b"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T134148Z_0000/diagnostics.json",
+          "sha256": "c4cf5d993a4307e30d8373ce08b695b6bcd3820879846382092ae40c6a345d2e"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T134148Z_0000/logs.jsonl",
+          "sha256": "c29e0d832a289727f0ef860b2288010282aae8929d79f5eda167d2f071834eef"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T134148Z_0000/run_record.json",
+          "sha256": "47d31e74491cf4b4566b10800d8a658e0ee94360a30508acbb0dc611a2ac3f89"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T134653Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T134653Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T134653Z_0000/best_circuit.json",
+          "sha256": "d24975057b77cf1faeff4ee998ab24f35ad6e8b9a2804869148cc7711582b3c7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T134653Z_0000/diagnostics.json",
+          "sha256": "3f1db41d4a9012d81408daaf4b184994d89e65b395715de336432cc04a12a3de"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T134653Z_0000/logs.jsonl",
+          "sha256": "5ef32d795d4306804350ac80d4b916668c1e7763c674875c1507fddc73f43acd"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T134653Z_0000/run_record.json",
+          "sha256": "eba14fbec5a9b64ca5f5594f8ad76edd73d6fb40b6c9ccddd9e8fba43cfeff8f"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T134654Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T134654Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T134654Z_0000/best_circuit.json",
+          "sha256": "85cd32a688e5aaf99cd0ac779d8d1a7a735b72805d987c8f5b52f21970fd99f3"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T134654Z_0000/diagnostics.json",
+          "sha256": "b16e0ee512651726bd6076279b3962eda15998844129f306030597650bf6ed76"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T134654Z_0000/logs.jsonl",
+          "sha256": "1b04ec3853fa7f466e626e6f1331238aea723f446efc088725913de148804d8d"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T134654Z_0000/run_record.json",
+          "sha256": "8868b9a3e923e0f451dff72f2db805bf4ad1aa8cb62e1cd61e4841e636c041b6"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T135018Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T135018Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T135018Z_0000/best_circuit.json",
+          "sha256": "e61dd8ad271f0f290957affd190c71ff3e5866841b38446f2195a2df0ca99069"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T135018Z_0000/certificate.json",
+          "sha256": "6a01c89bd23b2b7aaa1d6c42a35225e17f6f2d785c3c6bdd84f6aecf460a0a67"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T135018Z_0000/diagnostics.json",
+          "sha256": "37f0fa4edc66ece889a49cf23ae333081a9feadb92fa31e1de60f74568e23b62"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T135018Z_0000/logs.jsonl",
+          "sha256": "8653b8eb962a785a2ed387f35c384e73cf3237897ad5072d0e8ec0c669da40fd"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T135018Z_0000/run_record.json",
+          "sha256": "00d890392dd2caebd2977076bb5d6d25e24b407263c51743a87b5ceb29718650"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T135425Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T135425Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T135425Z_0000/best_circuit.json",
+          "sha256": "d24975057b77cf1faeff4ee998ab24f35ad6e8b9a2804869148cc7711582b3c7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T135425Z_0000/diagnostics.json",
+          "sha256": "635b1a2cc44c9c04da8cdd8aed2cb0281212bd322a453e4ba1a659f549263833"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T135425Z_0000/logs.jsonl",
+          "sha256": "82a4b21d1ff7d50f38df0f4590e7934097dba3b6597a49ddeee26cfee1bb074b"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T135425Z_0000/run_record.json",
+          "sha256": "4c80ce777294a466150795eb320234ee09a5bef345a81bb943f08a033f625cf5"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T135426Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T135426Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T135426Z_0000/best_circuit.json",
+          "sha256": "753bc5509373d2257e6207d665c4c4ac22b5a551f15f1e1e2f9ef6920298f5a2"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T135426Z_0000/certificate.json",
+          "sha256": "bd6ada26e5aec90a06c40e3d799795164aaf853bb5f6699cbce89688a7d0bf71"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T135426Z_0000/diagnostics.json",
+          "sha256": "e1d1e896cfb5f8cb26f8c325eac3ea9a3047153d1f36b3f55a987629263ce0d6"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T135426Z_0000/logs.jsonl",
+          "sha256": "c614f9da1705c95f67552eb4e676c1f6eb100d8db155dc5abce61310344a4f19"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T135426Z_0000/run_record.json",
+          "sha256": "ce118d618276698f58cb2608adcd67ff91d777f8a6a153956f7163bdd90d86cc"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T135555Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T135555Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T135555Z_0000/best_circuit.json",
+          "sha256": "0e2dd2f55547593b77aff01b24d66e316f1d2114c91e988a1f7924963ee08d49"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T135555Z_0000/diagnostics.json",
+          "sha256": "99bb60950143a2f971c3fd81afdf27bb36c97c2454684d4494596e9df746197e"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T135555Z_0000/logs.jsonl",
+          "sha256": "7e4b64303933597db192dac28186bdc82efefadad66b03d8909b9af760a2a769"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T135555Z_0000/run_record.json",
+          "sha256": "584dc1c2184a6b02d7b84704fa14cb407cf0256563046461a20f5529fe6598cd"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T140116Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T140116Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T140116Z_0000/best_circuit.json",
+          "sha256": "d24975057b77cf1faeff4ee998ab24f35ad6e8b9a2804869148cc7711582b3c7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T140116Z_0000/diagnostics.json",
+          "sha256": "f635dfe910d95f8404e88c363d5f2b2a5c4560e975a973a4fabc6e72fa741925"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T140116Z_0000/logs.jsonl",
+          "sha256": "bb9c16d5faa347efbe5d33a49921c894b90983d72ea10ab619f6e13acaada4f7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T140116Z_0000/run_record.json",
+          "sha256": "de909869ea35ed7190244c3d55994a72a604d8866ddce3241538da95db7f977f"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T140116Z_0001",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T140116Z_0001",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T140116Z_0001/best_circuit.json",
+          "sha256": "d24975057b77cf1faeff4ee998ab24f35ad6e8b9a2804869148cc7711582b3c7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T140116Z_0001/diagnostics.json",
+          "sha256": "bc52233f9ab9c057b65710ef96c8c91e928f323494eb035cd2032cac9a8d2038"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T140116Z_0001/logs.jsonl",
+          "sha256": "59eef2e3924a2190aa2b0d4be72308d956311baac91568f1685ae1a07dc0c6ff"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T140116Z_0001/run_record.json",
+          "sha256": "b61946e1908a35f62501a35a68a733c96d1bfcb346b0524d6e67a8ffd1699f43"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T143234Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T143234Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T143234Z_0000/best_circuit.json",
+          "sha256": "d24975057b77cf1faeff4ee998ab24f35ad6e8b9a2804869148cc7711582b3c7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T143234Z_0000/diagnostics.json",
+          "sha256": "195ab377ff3a27eeab7a023b99fba2f20104c13224c91640fe14f11cca527260"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T143234Z_0000/logs.jsonl",
+          "sha256": "3d7e9a1454e0e25a5054866bed7a3177bb31cbcf26748e46e00906862a439053"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T143234Z_0000/run_record.json",
+          "sha256": "3e349c852a46821e6f98d7c5f01acfe8b2ad88d5b0806ecaf38af5a5d3ec70eb"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T144316Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T144316Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T144316Z_0000/best_circuit.json",
+          "sha256": "d24975057b77cf1faeff4ee998ab24f35ad6e8b9a2804869148cc7711582b3c7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T144316Z_0000/diagnostics.json",
+          "sha256": "96e48bcc4d1f59b3f605451c4a04471867608420503e4f0a07dbdea46cb14601"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T144316Z_0000/logs.jsonl",
+          "sha256": "bc9021072870e7438ffd258b368d930705019ac6ba9bbda218d97ae257d36dfa"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T144316Z_0000/run_record.json",
+          "sha256": "ec2777f11a510e7372b40ad2d3f862ff11d433294774a75ad0efc76147cf837d"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T144317Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T144317Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T144317Z_0000/best_circuit.json",
+          "sha256": "d24975057b77cf1faeff4ee998ab24f35ad6e8b9a2804869148cc7711582b3c7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T144317Z_0000/diagnostics.json",
+          "sha256": "d0cfa25461b69d8651228a12c5904926c50f3dfbf7bae4f63ca1ed00bb47c73d"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T144317Z_0000/logs.jsonl",
+          "sha256": "caf47b9fba932730f18bdb0e961f2688266dc75dd0b1f8ac2c25d148d46727f5"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T144317Z_0000/run_record.json",
+          "sha256": "3ce32078267e01fa0540b087a7732c6fef7d42fe38b2f1bad3739b2b03c151b9"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T144648Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T144648Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T144648Z_0000/best_circuit.json",
+          "sha256": "d24975057b77cf1faeff4ee998ab24f35ad6e8b9a2804869148cc7711582b3c7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T144648Z_0000/diagnostics.json",
+          "sha256": "8eb5ce36fcc7ff7e6f3d3e8a8caa1ebc1001abde83c993059b2307306118b8be"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T144648Z_0000/logs.jsonl",
+          "sha256": "f26fc8c0575974dfb974e984003fceb775ce4d23cd79d5c926ed7cc2588c5a76"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T144648Z_0000/run_record.json",
+          "sha256": "61c5330b026085c09ee71ff572ebb6de6826e4acd898429811ed55ce13a41810"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T145737Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T145737Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T145737Z_0000/best_circuit.json",
+          "sha256": "d24975057b77cf1faeff4ee998ab24f35ad6e8b9a2804869148cc7711582b3c7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T145737Z_0000/diagnostics.json",
+          "sha256": "00ca8343277a15e25e05624da4bd0db0fb03e22747312bb1e35c6f344acb0ada"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T145737Z_0000/logs.jsonl",
+          "sha256": "bacb740245b516ee29b11c8be60a2d240e8a039c3063451c513e483c1a273056"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T145737Z_0000/run_record.json",
+          "sha256": "054ab3fea0768cb4368a1411c1356d380ca0389c40df8809c5455ded3b5d6e5f"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T145738Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T145738Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T145738Z_0000/best_circuit.json",
+          "sha256": "d24975057b77cf1faeff4ee998ab24f35ad6e8b9a2804869148cc7711582b3c7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T145738Z_0000/diagnostics.json",
+          "sha256": "9451ef5f71e032b9a7ec7957d2b8ae14caca71a1c7fac085967de38697a16c97"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T145738Z_0000/logs.jsonl",
+          "sha256": "1d0ac07a769c3906e9ace26fc22b9245a42eefae6910fd89ace57a3a8684b5d3"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T145738Z_0000/run_record.json",
+          "sha256": "044733979ac24ce44eed50c4b8319cbef1865606190a61ca33c50717a266542f"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T150117Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T150117Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T150117Z_0000/best_circuit.json",
+          "sha256": "d24975057b77cf1faeff4ee998ab24f35ad6e8b9a2804869148cc7711582b3c7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T150117Z_0000/diagnostics.json",
+          "sha256": "7d42c4ae8e2c9503967e5dff156dd33e4d8326167bbf207ce4e8f15995f72bf3"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T150117Z_0000/logs.jsonl",
+          "sha256": "996aa709ba87c41cf5d1c112fa475e8cdf8e1a8ce8ba66e6b74fff6905c9fefe"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T150117Z_0000/run_record.json",
+          "sha256": "9bdc7f2eb31efc138e7344a2efe48359c870e045c82fa6017f6c9c80dac458a4"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T151203Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T151203Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T151203Z_0000/best_circuit.json",
+          "sha256": "d24975057b77cf1faeff4ee998ab24f35ad6e8b9a2804869148cc7711582b3c7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T151203Z_0000/diagnostics.json",
+          "sha256": "580235b2e12b1642163ec3ec29fe9e9e015ad049d072c7e3499f8c8caea4e97b"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T151203Z_0000/logs.jsonl",
+          "sha256": "afe73cb669b4dea84d949dd66f755ca46f046bc5fde3d74dd6e482749e65d652"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T151203Z_0000/run_record.json",
+          "sha256": "41b688a6a34425f7507726ed57889bbb74caf45e5d2d283b8dfdf8d3271b7adf"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T151204Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T151204Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T151204Z_0000/best_circuit.json",
+          "sha256": "d24975057b77cf1faeff4ee998ab24f35ad6e8b9a2804869148cc7711582b3c7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T151204Z_0000/diagnostics.json",
+          "sha256": "ce929950730ef1faa7c0bc184f4ebbbd0e038e79c0acd3d3ad854508f05732f6"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T151204Z_0000/logs.jsonl",
+          "sha256": "90f5c308641c238f936176f283f56308fd26b5905649d9de4ebda8c5add19582"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T151204Z_0000/run_record.json",
+          "sha256": "f48057c2c52d8f0166aeecc81eb9331eb4087fc605712891710ad6eaa691a3b8"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T151541Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T151541Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T151541Z_0000/best_circuit.json",
+          "sha256": "d24975057b77cf1faeff4ee998ab24f35ad6e8b9a2804869148cc7711582b3c7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T151541Z_0000/diagnostics.json",
+          "sha256": "4797cdf306eef5818bae85d07b3373ca37aab86bd2e03adeaf697d45ae1c8e45"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T151541Z_0000/logs.jsonl",
+          "sha256": "8e7d10f76ac9695c958249b7efbf034a61ad82f0ccb1cf7e9fbad966bee2cf13"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T151541Z_0000/run_record.json",
+          "sha256": "d2b66ff9bb24b94a37e194da33eea1101b88a5a4cd24ce1a9dd2cb68ca5b347d"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T152625Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T152625Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T152625Z_0000/best_circuit.json",
+          "sha256": "d24975057b77cf1faeff4ee998ab24f35ad6e8b9a2804869148cc7711582b3c7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T152625Z_0000/diagnostics.json",
+          "sha256": "b4d1b1ae6469c1f2aee3292b400c544d843eb6323c8031bc19bee04388565842"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T152625Z_0000/logs.jsonl",
+          "sha256": "35d733071f0ff74733e85ff399cb8429af2284056829e4a8816767431d2b06f4"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T152625Z_0000/run_record.json",
+          "sha256": "8f665f8fd8372fe4ed3eb5f6221c9c82c36c32d49b72f1db3afe54ab13a37b81"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T152626Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T152626Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T152626Z_0000/best_circuit.json",
+          "sha256": "d24975057b77cf1faeff4ee998ab24f35ad6e8b9a2804869148cc7711582b3c7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T152626Z_0000/diagnostics.json",
+          "sha256": "bbe0b345b4520375cb8c241cb59bade86495303835ed34a928fff20eed7e4059"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T152626Z_0000/logs.jsonl",
+          "sha256": "4e1a989d70872f2a55ba4a93248e70749a7ff2d944142a296f975671927e40df"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T152626Z_0000/run_record.json",
+          "sha256": "5e9461af578a0d906edf2dff52d0d00d2e320296cd984bcf96747001940ef00e"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T153006Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T153006Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T153006Z_0000/best_circuit.json",
+          "sha256": "d24975057b77cf1faeff4ee998ab24f35ad6e8b9a2804869148cc7711582b3c7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T153006Z_0000/diagnostics.json",
+          "sha256": "db4afdf24e41ed462d7dc4fc421564aa57f49cae0ef20c53cfca5fa34e5c6594"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T153006Z_0000/logs.jsonl",
+          "sha256": "aeb85548d09caa2fffc88ce6740cfa3a6fa0d964092fa181045a365d4759b4de"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T153006Z_0000/run_record.json",
+          "sha256": "236a4ce41ee33ec8ceb8e8e7eccca936f8c7bc37af8f29a4b60befabd15a4baa"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T154047Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T154047Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T154047Z_0000/best_circuit.json",
+          "sha256": "d24975057b77cf1faeff4ee998ab24f35ad6e8b9a2804869148cc7711582b3c7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T154047Z_0000/diagnostics.json",
+          "sha256": "6a0098ffecf45018325ee819891e97ba17c4741dc3ca355239ec7d43b525ef97"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T154047Z_0000/logs.jsonl",
+          "sha256": "ecb5f46463bd694be9069b264f5e160806d2acb0b92f35c2091f5dad11e8d337"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T154047Z_0000/run_record.json",
+          "sha256": "2e0bf971d57a1a3638bb66371379ed7e2cde5b389ee02ab3d3430f7012ec73be"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T154048Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T154048Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T154048Z_0000/best_circuit.json",
+          "sha256": "d24975057b77cf1faeff4ee998ab24f35ad6e8b9a2804869148cc7711582b3c7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T154048Z_0000/diagnostics.json",
+          "sha256": "73a7575a829673641821186fff80ce0fdbae0b10a5d42ed38593614b3d93622c"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T154048Z_0000/logs.jsonl",
+          "sha256": "a4bfbedbac34daa64a80e41b07b204b8d8cffb2c090c33a42bab39662fc10fb4"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T154048Z_0000/run_record.json",
+          "sha256": "fb97127440e9cae5764d68fbfb943c054884ede12ff4a6f813e427aee3bc09a7"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T154427Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T154427Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T154427Z_0000/best_circuit.json",
+          "sha256": "d24975057b77cf1faeff4ee998ab24f35ad6e8b9a2804869148cc7711582b3c7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T154427Z_0000/diagnostics.json",
+          "sha256": "3c80ae3ce8feccbeff5582b95a5f580956c89d27025fd8481b6bb281709a4ec0"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T154427Z_0000/logs.jsonl",
+          "sha256": "500adb6d55faa5f05abe63f53fbd0f4a05f7f4a67f0f81852def52dd83923e85"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T154427Z_0000/run_record.json",
+          "sha256": "b2ee50d1cbd43688aee6e0b71648e6f37f5a642ff7821d8db8043f3003f935d8"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T155452Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T155452Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T155452Z_0000/best_circuit.json",
+          "sha256": "d24975057b77cf1faeff4ee998ab24f35ad6e8b9a2804869148cc7711582b3c7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T155452Z_0000/diagnostics.json",
+          "sha256": "8ab895782bdf853bd35edf895c4086fa0a04bbdea743e3ed8addc06b21f657c6"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T155452Z_0000/logs.jsonl",
+          "sha256": "ef03702aebef4ee31328e8c0ef7dd732269610f812b1a42cc512790adf71981a"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T155452Z_0000/run_record.json",
+          "sha256": "a51782520634b3f5521365747556fdd3b8762d44203d91fdd065de445a7428d1"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T155453Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T155453Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T155453Z_0000/best_circuit.json",
+          "sha256": "d24975057b77cf1faeff4ee998ab24f35ad6e8b9a2804869148cc7711582b3c7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T155453Z_0000/diagnostics.json",
+          "sha256": "804ed3316038fba9636ea4f77cbda60720f83e277e421ead7019748c15945042"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T155453Z_0000/logs.jsonl",
+          "sha256": "a3457ecb5a8a84882b2bd8eb515ac6ce65cb6cb3c5a7f5019d2bc64a256996e1"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T155453Z_0000/run_record.json",
+          "sha256": "4aa1000375dfcfd15958c053da05c9e55939c11f87684519dff873ba35782457"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T155822Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T155822Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T155822Z_0000/best_circuit.json",
+          "sha256": "cd72064af4eb1ed6442377d0267cdcce44a20a68137b9248a33e249734130268"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T155822Z_0000/certificate.json",
+          "sha256": "4f0baab358918870872ca82fc2c696dc5eab7c9c404be8ddce8375a1c35f9af4"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T155822Z_0000/diagnostics.json",
+          "sha256": "a20d994cb79644934601fc6822f31aee8bc935620952a2cee810a678f7dbd127"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T155822Z_0000/logs.jsonl",
+          "sha256": "acc562731052232612d49189cdd2b9c099fcacacc3e9dae1025b1af751677646"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T155822Z_0000/run_record.json",
+          "sha256": "4366943ccdf8cc10cd4641b698ca9475c4176cf7d72ef86d1140a33891cd4ac7"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T160248Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T160248Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T160248Z_0000/best_circuit.json",
+          "sha256": "d24975057b77cf1faeff4ee998ab24f35ad6e8b9a2804869148cc7711582b3c7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T160248Z_0000/diagnostics.json",
+          "sha256": "a2255e4073472421be88b48e72561de815c8e05a4066b3fa3466b4a7325788a2"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T160248Z_0000/logs.jsonl",
+          "sha256": "0251f4a7913e75af88226e1a9150b5a6f20ae28833451c4bbde61b2ef6fe9457"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T160248Z_0000/run_record.json",
+          "sha256": "cec5d85842ae611c74307ba0222ed7fb8c0fb4a040359f4fc60ed9a5f0f901fc"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T160249Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T160249Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T160249Z_0000/best_circuit.json",
+          "sha256": "adbaf1745ad8dc367d01887f917dd27ea3887dca2cd404c49527940f66c87ecf"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T160249Z_0000/certificate.json",
+          "sha256": "3567e4ce70c01b8f1c7c64da44bc22d0370d9d69b6946b5e21780abc706ba5e5"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T160249Z_0000/diagnostics.json",
+          "sha256": "fb6c8cfca76bfb844b406108aeea64043ef37cb65449774f49438f12a45ac714"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T160249Z_0000/logs.jsonl",
+          "sha256": "9a19d87ec7136e6fc71f400a79097d670393cc8fabe0b2dc62fc52947482a2b6"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T160249Z_0000/run_record.json",
+          "sha256": "88d458d53dbfde0b1cc70a0f80f5383b3844973ef2924e378f2b1e5159c6ea00"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T160424Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T160424Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T160424Z_0000/best_circuit.json",
+          "sha256": "c6461bda39a7ae00095d5acf5d84b077261318525287cd07444d2cd947792f07"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T160424Z_0000/certificate.json",
+          "sha256": "b65bab27c043e6f690674217bde51d471a054270275b34d480e268861651ade8"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T160424Z_0000/diagnostics.json",
+          "sha256": "8ba4f60e5d51881cbb48b15759177f55bdd3f4b79ba95be281672bc306e6a72a"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T160424Z_0000/logs.jsonl",
+          "sha256": "df72264aee7632f1dbfb69f7be725c51988428fbe4e2de65c85be9fb25cad5aa"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T160424Z_0000/run_record.json",
+          "sha256": "d62ef8bb28a833f9a05512cbc2529e0decb603edaa19a40ee22f4d0e751448b9"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T160904Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T160904Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T160904Z_0000/best_circuit.json",
+          "sha256": "d24975057b77cf1faeff4ee998ab24f35ad6e8b9a2804869148cc7711582b3c7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T160904Z_0000/diagnostics.json",
+          "sha256": "3f5152c6c9367f599df82f1dc0c44c25e28e37b41e6e9b6a349c8b3ac78ada6f"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T160904Z_0000/logs.jsonl",
+          "sha256": "8de6ca74b4ebdd7f156ed987056cccb5808abf2f25bb56bd4ca11aca0fdd18d7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T160904Z_0000/run_record.json",
+          "sha256": "104dc3f1fb69adb771fc765bc68c4d60ed1f512d62389875ad995aafe82818ba"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T160904Z_0001",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T160904Z_0001",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T160904Z_0001/best_circuit.json",
+          "sha256": "21d40cc9ba0550e6d78f0723a67ec71c1de39838b00c3c9b60cf9e367ad533a5"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T160904Z_0001/certificate.json",
+          "sha256": "4ff5756de70cf4d449bac16d07807411bc2e2106136ad2455f8d5bee6ab6a428"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T160904Z_0001/diagnostics.json",
+          "sha256": "7b84d148aaac69ef710891d14aea2908de080c2960ae43f8047d26bc4d3a7525"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T160904Z_0001/logs.jsonl",
+          "sha256": "36aa0368f4b3d2fb9110cb203478d66349db64d87dfc7235faebe7d27640e09c"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T160904Z_0001/run_record.json",
+          "sha256": "6074db571919dca141eb211c85027d3034685251111949824b02ae051b4ad7f4"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T161042Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T161042Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T161042Z_0000/best_circuit.json",
+          "sha256": "b2a63607eeb8979663c0b05005df62cc312258bda55cb0fde2089d4fb900648b"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T161042Z_0000/certificate.json",
+          "sha256": "c670818ab7a5096c641576199a140b1329b64d28be663b7344080564e6be885c"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T161042Z_0000/diagnostics.json",
+          "sha256": "b2d6e6c78806a59fa1c7b076e29016bc32992afe4715831f12281d4a83a9c671"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T161042Z_0000/logs.jsonl",
+          "sha256": "013eea0a773ced4c322df79dc749b7928120796eb87b16242fee229ddfada08d"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T161042Z_0000/run_record.json",
+          "sha256": "525c0a2fcf97fed993c831cd349297aae4abb09bb4df12a008ef833184946f0a"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T161509Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T161509Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T161509Z_0000/best_circuit.json",
+          "sha256": "d24975057b77cf1faeff4ee998ab24f35ad6e8b9a2804869148cc7711582b3c7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T161509Z_0000/diagnostics.json",
+          "sha256": "7ecd0b6dc25c59bf433adbd0c759300d3f7e0d8131116029012981d728afdea6"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T161509Z_0000/logs.jsonl",
+          "sha256": "c7720a1b504eb4ed457a8cd6a04cd7cd7e088b28c5767a91929bbceb014fd254"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T161509Z_0000/run_record.json",
+          "sha256": "d8f61b52d96dc473aca6e9feb7ea36ec96e157e9acdf8cd29aac9de8974a32dc"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T161510Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T161510Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T161510Z_0000/best_circuit.json",
+          "sha256": "6fe17606cd344fdb08674b86cacf6442c8deb9356bdd7975c200f455eacdb3a4"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T161510Z_0000/certificate.json",
+          "sha256": "a484060bed5b7a5a4686957c9b972b3b013bede56ea0e392e37d69005dddab6f"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T161510Z_0000/diagnostics.json",
+          "sha256": "c9d50c6ada289b53b038814dc35956738ad8164091b7fdf3bf08cc40b3082e91"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T161510Z_0000/logs.jsonl",
+          "sha256": "8eb184d1f1d7d92bdc14d85714b137d716a8af196a16111b3afaca71bcebe47d"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T161510Z_0000/run_record.json",
+          "sha256": "da6c3d5e3d63fcad8c0a748ec8d10bceabf844e5645ad9d3f94d6c7d08fbf805"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T161645Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T161645Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T161645Z_0000/best_circuit.json",
+          "sha256": "9dbe8de0ee049bd734ef84d2fb5808b5fcde7033ea952209602fa073f8da08e7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T161645Z_0000/certificate.json",
+          "sha256": "4218192361fd01e35308c4ada35da42b2b7fd31e31b76ecf6c4a5071dc1c4f34"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T161645Z_0000/diagnostics.json",
+          "sha256": "8d1b42d9d0ba9d08d628229154f5e1c332e3735745b6a5457b9eb45d49acf45b"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T161645Z_0000/logs.jsonl",
+          "sha256": "5cbccc4f8bdeefee018937c23d8d52944a7f25a795d062e5f30e9a98ab5c3975"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T161645Z_0000/run_record.json",
+          "sha256": "fc60aa3a648c11579e07880a89e2096347ceb65b93f9c07045ff3e0a9a098dec"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T162133Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T162133Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T162133Z_0000/best_circuit.json",
+          "sha256": "d24975057b77cf1faeff4ee998ab24f35ad6e8b9a2804869148cc7711582b3c7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T162133Z_0000/diagnostics.json",
+          "sha256": "c8016ce1cc33f71cf3bfe436b81243d9275f5ef328c6d3b39816d45eb20bece0"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T162133Z_0000/logs.jsonl",
+          "sha256": "4c681b3d646f64959101319527ccdc7fd80d711f560552477316cc10b20ada09"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T162133Z_0000/run_record.json",
+          "sha256": "86d0c75715d62d25782a63ea9bfb8a9d280bd018aef655a931a8141905e57ef7"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T162134Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T162134Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T162134Z_0000/best_circuit.json",
+          "sha256": "21e240e4220b8468b6112dd8cab59ccab02f153c4f7b6769ca2512fabd70a42f"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T162134Z_0000/certificate.json",
+          "sha256": "fcdec969335379f90825ae0f2bf27e0b2408969a61568ccf57bad7cc2e0d67bc"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T162134Z_0000/diagnostics.json",
+          "sha256": "a87ced1d95a833fffc9e9c56b7da41d273f53a12b96b5d1e6f499361f46bf8a0"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T162134Z_0000/logs.jsonl",
+          "sha256": "84cf5ce35f373837e9a1a37f2848ad15094ef22ef53d59cd2c4c13b38f6017f4"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T162134Z_0000/run_record.json",
+          "sha256": "9448afa9574091d7da02be58a3dc0a67cf6cd9ab2eb3a354a8e0dfb06ba99df4"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T162441Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T162441Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T162441Z_0000/best_circuit.json",
+          "sha256": "51c9257bab2ef965b43aa9e1eecbac5c7b9123680e862aac7c6f5f8f01e90a55"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T162441Z_0000/certificate.json",
+          "sha256": "7b660c8254a1335353bb3318e5513413e3ae1daf9f1d04d81ccf5c36af5ffa0b"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T162441Z_0000/diagnostics.json",
+          "sha256": "9039aed4c69c2640940639d3a5a031eb626386a61cf54561aeb1e54ca9a2a262"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T162441Z_0000/logs.jsonl",
+          "sha256": "b836dcab5fa3bca6971bcbb111c57d7f7bca37bb38e3398bb55ed8d0e8a2b536"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T162441Z_0000/run_record.json",
+          "sha256": "fe42289b90487696b4a8969d5e12e40971f26f32f682150763fd1ab8f10b1aa3"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T162946Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T162946Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T162946Z_0000/best_circuit.json",
+          "sha256": "d24975057b77cf1faeff4ee998ab24f35ad6e8b9a2804869148cc7711582b3c7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T162946Z_0000/diagnostics.json",
+          "sha256": "942d165d0b4242fbb7b99e918d19ee3dda373045fff3dd6be1d365f070af0f45"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T162946Z_0000/logs.jsonl",
+          "sha256": "559d9e9d3b90b6ec3386d5fa3d9eeb1403de0419c7618033dd3edfdd346fd0bc"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T162946Z_0000/run_record.json",
+          "sha256": "0bc6309c5117b531609da153be4b305c5f3dea86c06960ca61464eb7918aca9c"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T162946Z_0001",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T162946Z_0001",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T162946Z_0001/best_circuit.json",
+          "sha256": "9c9bbf4ab82e2de9fe5f9cb9707e1b0a187a5e933b2abd15a366abbccb475c4f"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T162946Z_0001/diagnostics.json",
+          "sha256": "677d15fe672c66349355f8f70c1bc22df687046a8d604f191725d42693cbc64d"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T162946Z_0001/logs.jsonl",
+          "sha256": "01625aa7d969e7d5e28bba197055f52f73fd706c11e20428543dadb7f221fca4"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T162946Z_0001/run_record.json",
+          "sha256": "e58e7ed4921bd6c8b3246c85ad1f63bdd16ce7fa90b151b2f9a0aacf3e10d3ce"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T163125Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T163125Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T163125Z_0000/best_circuit.json",
+          "sha256": "9a6ec995416c775f4e2145c1f88abeb6d16334782a73784a0c46c00ab70d063f"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T163125Z_0000/certificate.json",
+          "sha256": "65f37cc80ac03aa8650dee98adc8272fc07631c48080449ab3eb79ff31d88ce2"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T163125Z_0000/diagnostics.json",
+          "sha256": "2a9aad0b77eeeb363a2e91869e178836b88cdbf48a9136dd1c9d1621bd7eca89"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T163125Z_0000/logs.jsonl",
+          "sha256": "4f1ce284fbf24feae8bda5363d9127ecaa40977aef1a5cf049aa30df9945842c"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T163125Z_0000/run_record.json",
+          "sha256": "e55d387a5e879b59687287ec00d0a7b8f35cf083857162d146b67bc822d8645e"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T163628Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T163628Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T163628Z_0000/best_circuit.json",
+          "sha256": "d24975057b77cf1faeff4ee998ab24f35ad6e8b9a2804869148cc7711582b3c7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T163628Z_0000/diagnostics.json",
+          "sha256": "eeb8d19b321feb105fa458bc15bcdb6850f82c8f313652a30779ad690eb3e597"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T163628Z_0000/logs.jsonl",
+          "sha256": "b7e0c191309a48672391a2ad0d4836770116ffc8230052e645fe414b3232214e"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T163628Z_0000/run_record.json",
+          "sha256": "d52413215a7a9928808d14d0f4343c6402548d2b9865144b8a96e4d143880ed0"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T163628Z_0001",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T163628Z_0001",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T163628Z_0001/best_circuit.json",
+          "sha256": "812643f3e53721aef636bcb2f245f79e96fff762bce6adec19103865eb5f733e"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T163628Z_0001/diagnostics.json",
+          "sha256": "1a741910a556e0032b07b2f5164b63d8764fb2a6e8d27a818f7159e74ba1ff8a"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T163628Z_0001/logs.jsonl",
+          "sha256": "d61ffd1f367d86928002c70efc6531093030e00fef83b9a9598bd747142e9bfe"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T163628Z_0001/run_record.json",
+          "sha256": "a752a31c03234e5bbbd4f92b019952b0bc31dd01e998f3cb2aed177ea0486b17"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T164025Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T164025Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T164025Z_0000/best_circuit.json",
+          "sha256": "fb7eb659349a904e90c278a452543065a8f37b60371d76079aa552e18e04c5a0"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T164025Z_0000/diagnostics.json",
+          "sha256": "4d7e59482a1c31a4dfd1fcbd460716005add2c1204bd3d9981ef995d0cff7190"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T164025Z_0000/logs.jsonl",
+          "sha256": "e422f0e39c6d9777f773420c550b2b5decf2e9401f33e2d01e094586adca3f11"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T164025Z_0000/run_record.json",
+          "sha256": "20991239c3276c188f75f5e68f762586e20cd77521d781c77c362db1d1affac0"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T164602Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T164602Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T164602Z_0000/best_circuit.json",
+          "sha256": "d24975057b77cf1faeff4ee998ab24f35ad6e8b9a2804869148cc7711582b3c7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T164602Z_0000/diagnostics.json",
+          "sha256": "d0e3c27f4923d0cb2ef36c71c8c1120081debefb5a510978d6b25b96ca216eb5"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T164602Z_0000/logs.jsonl",
+          "sha256": "f03c0f839317f50e646a4f819ce2218ed664d02049d11cc1c4e30041efbc7a13"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T164602Z_0000/run_record.json",
+          "sha256": "b3082266a9948250288c40ead4142c7b6ab3d04b9cd80a703ef2447699fb88b9"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T164602Z_0001",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T164602Z_0001",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T164602Z_0001/best_circuit.json",
+          "sha256": "248d055c336fcf5de685af60f4a95061a160597ec68b7d7d6aa2fdbac5e71c0c"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T164602Z_0001/diagnostics.json",
+          "sha256": "91a548c8f805956b48e766c6ab69739424f86b31d627ed1985ae884132adbaf5"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T164602Z_0001/logs.jsonl",
+          "sha256": "963453a75f320ca75c1fff36141ecd6c2f2b691f794df9061c538ab64f679bb1"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T164602Z_0001/run_record.json",
+          "sha256": "e3efa2a0e62c5155ca1fba07d490dcab684445011003b723fa6c145ef65df4f2"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T164744Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T164744Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T164744Z_0000/best_circuit.json",
+          "sha256": "5aca3af23eade7a63f3232526f04ab76ee7a560270578b2ecee641a5a07201d2"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T164744Z_0000/diagnostics.json",
+          "sha256": "bcba6f62889d0c8d5f0371db318d8b77c8e225b7c693a73a366b1c03b5068627"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T164744Z_0000/logs.jsonl",
+          "sha256": "2cd1c346dc8b215ba71846901d445308d8e951d313fbdedf5ec732b65380ebbc"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T164744Z_0000/run_record.json",
+          "sha256": "f1e27486f54cb48b8316828447e5bd71a0dc16bf16e8233cee0fed2713635ffd"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T165411Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T165411Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T165411Z_0000/best_circuit.json",
+          "sha256": "d24975057b77cf1faeff4ee998ab24f35ad6e8b9a2804869148cc7711582b3c7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T165411Z_0000/diagnostics.json",
+          "sha256": "076e715aa29a962d10f7888037fb5cf540bdc381c568274bc5308a08e29527fa"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T165411Z_0000/logs.jsonl",
+          "sha256": "19c8bc5df998063bfeeb1a468fc6a304d62378f9f23426402b71402a5ca8fdd6"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T165411Z_0000/run_record.json",
+          "sha256": "5b9bac0662ee3d57e3a94f6cbc48a6224f278a1068ccb5a60c824f154cc05d2f"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T165412Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T165412Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T165412Z_0000/best_circuit.json",
+          "sha256": "d24975057b77cf1faeff4ee998ab24f35ad6e8b9a2804869148cc7711582b3c7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T165412Z_0000/diagnostics.json",
+          "sha256": "ecbc2ce4f04c463afa469ea36602ac0921887c38c8a0a76c8170fee0499ed72b"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T165412Z_0000/logs.jsonl",
+          "sha256": "0c06df94cd34f1b121efa004509cf5aa0923f769b8bd03fd3674ebdb4b5087f2"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T165412Z_0000/run_record.json",
+          "sha256": "4f10495b16a9f915677fb1dff1d6795f6fec2ad3a8abe4ca202795a34b5ac10c"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T165552Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T165552Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T165552Z_0000/best_circuit.json",
+          "sha256": "317b00cf7879628b8bc9c86d96544d1061cc97b4c5d3ebd367bd7197002a096e"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T165552Z_0000/diagnostics.json",
+          "sha256": "9aca979472d0c8a8554197e6e007b4ec4db433d0f2528759c0a4781a5f4cc3d9"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T165552Z_0000/logs.jsonl",
+          "sha256": "39b46e33435ceb087d33b093b5744d5f4896a0a521cf35dc96e98c88ee948b29"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T165552Z_0000/run_record.json",
+          "sha256": "ad4031721551a9ba6c7018dff8c3660e20aa3b40860a7473ec37cab1590a9818"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T170120Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T170120Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T170120Z_0000/best_circuit.json",
+          "sha256": "d24975057b77cf1faeff4ee998ab24f35ad6e8b9a2804869148cc7711582b3c7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T170120Z_0000/diagnostics.json",
+          "sha256": "b47f9dfa77c2298e860cd533ff5f0683e46bb63dbe3be4980314c77ed3970288"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T170120Z_0000/logs.jsonl",
+          "sha256": "3466433d8da28ebdf967c25ecca7ee8c4ca4d8b26c1a567e0dbbcba2e83162e3"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T170120Z_0000/run_record.json",
+          "sha256": "13f92f52f8adf1ebce59190266d21790548807b28a7c4fa00649181da8d7cc71"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T170120Z_0001",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T170120Z_0001",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T170120Z_0001/best_circuit.json",
+          "sha256": "d24975057b77cf1faeff4ee998ab24f35ad6e8b9a2804869148cc7711582b3c7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T170120Z_0001/diagnostics.json",
+          "sha256": "ec9e9bb2c15e01bb2e4ad16cedf10767b5b9f636f29b61c7234bc8fa2615d2e3"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T170120Z_0001/logs.jsonl",
+          "sha256": "5fcb56d4692f3d56be968d3758b226b88cb49d9a3fe39ba5fac095939cc63bf1"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T170120Z_0001/run_record.json",
+          "sha256": "532892a6ba5f065a1e79bb22e11d45e67fc089f493058a0ab8f65eba58aace0d"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T170303Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T170303Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T170303Z_0000/best_circuit.json",
+          "sha256": "fb4af7feb58d96388785780e7bd8882cc0345f6e8f89dd9609ae5e030ff35f62"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T170303Z_0000/diagnostics.json",
+          "sha256": "82a138d69535a6c351e788848d0ed27e5fb35c340195e22842c68712bd7ac6d4"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T170303Z_0000/logs.jsonl",
+          "sha256": "df2602a02f077e471d4e42f6ee3e9dd8ca3b942cedc4acdd4be40c9fe3cdb0b8"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T170303Z_0000/run_record.json",
+          "sha256": "a0e90984400e6481017f97e2173319831e2fc9899df47605a5d930817b0eec51"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T170844Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T170844Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T170844Z_0000/best_circuit.json",
+          "sha256": "d24975057b77cf1faeff4ee998ab24f35ad6e8b9a2804869148cc7711582b3c7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T170844Z_0000/diagnostics.json",
+          "sha256": "c5324ca133595625a90e6215aee6128b572975c0c53e1ca1c9dfc550b7de3caf"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T170844Z_0000/logs.jsonl",
+          "sha256": "cfb093ccc4607de8782e535de45fd7b73b35bbd2c118a960336749cac94c851d"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T170844Z_0000/run_record.json",
+          "sha256": "3a42eac9a21404665fa8e57f3d6f97ecafb445ba1edb2c41c219a9c007bd6689"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T170844Z_0001",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T170844Z_0001",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T170844Z_0001/best_circuit.json",
+          "sha256": "d24975057b77cf1faeff4ee998ab24f35ad6e8b9a2804869148cc7711582b3c7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T170844Z_0001/diagnostics.json",
+          "sha256": "13d0e6df0b1d932f1542b995a0a7d4ec3cf5d4d4c2fbac8c26f521283dd8e7a1"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T170844Z_0001/logs.jsonl",
+          "sha256": "ab919c849f2cbe273c5b54eb7bf0481d2a694f09e72f82923b1d6142fac8bab8"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T170844Z_0001/run_record.json",
+          "sha256": "1a8342c51bb40ad8dcc56b55ce07e9ea52be3dd1a6d52a0f571410e99f3988ef"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T171020Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T171020Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T171020Z_0000/best_circuit.json",
+          "sha256": "954143c90519295226e795d8fdaaaeba4533d868201070e8a4c1d89dd878727a"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T171020Z_0000/diagnostics.json",
+          "sha256": "ee3ebc60a6aec79a1be0e7f48ec4db374b427735b6db183ae919badcbce505ef"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T171020Z_0000/logs.jsonl",
+          "sha256": "c27c02920e4cbcb2b62fb9d1306780f2b966891e535803df43a3b2e320fb6d16"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T171020Z_0000/run_record.json",
+          "sha256": "a94e65fc2148c30eef0ef0e249d8b0404b774ded14cefdaddf80d42b49a0c755"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T171546Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T171546Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T171546Z_0000/best_circuit.json",
+          "sha256": "d24975057b77cf1faeff4ee998ab24f35ad6e8b9a2804869148cc7711582b3c7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T171546Z_0000/diagnostics.json",
+          "sha256": "0d9a662d1c0ad41bc537f6a997813ef44440ca063e91f9e2a541a508fad932b0"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T171546Z_0000/logs.jsonl",
+          "sha256": "25434f69581b15901c1ca435da41caee585102c6cfd191606f8dbdfff5c1831b"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T171546Z_0000/run_record.json",
+          "sha256": "5dd4eb2000559a2df790d4918e0ed8bb689d1f89dd4c76fe1b0d08e2c92ee2ec"
+        }
+      ]
+    },
+    {
+      "run_id": "run_20260120T171547Z_0000",
+      "dir_path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T171547Z_0000",
+      "files": [
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T171547Z_0000/best_circuit.json",
+          "sha256": "d24975057b77cf1faeff4ee998ab24f35ad6e8b9a2804869148cc7711582b3c7"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T171547Z_0000/diagnostics.json",
+          "sha256": "b2e262b4a4e17727cfe216e56b5c10531a11138c4aaebcf989ae04978d85cd65"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T171547Z_0000/logs.jsonl",
+          "sha256": "416dc6d7eabd99e7b2c6436818eb65ed856fa2b50a2eb316055c67598800d64f"
+        },
+        {
+          "path": "outputs/paper_ready_gpt2_20260120_v6c/runs/run_20260120T171547Z_0000/run_record.json",
+          "sha256": "81359643367c5bd365cf1fd3ade8a710343e03b6973602a38c3135bab30e5b7a"
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C1",
+      "evidence": [
+        {
+          "evidence_type": "csv_row_cells",
+          "artifact_id": "T1",
+          "where": {
+            "setting_id": "setting_XOR_1_0"
+          },
+          "expect": {
+            "planted_redundancy_factor": "1",
+            "RR_mean": "0.0",
+            "CC_mean": "0.0",
+            "non_identifiability_rate": "0.0"
+          }
+        },
+        {
+          "evidence_type": "csv_row_cells",
+          "artifact_id": "T1",
+          "where": {
+            "setting_id": "setting_XOR_2_1"
+          },
+          "expect": {
+            "planted_redundancy_factor": "2",
+            "RR_mean": "0.6666666666666667",
+            "CC_mean": "0.6666666666666666",
+            "non_identifiability_rate": "1.0"
+          }
+        },
+        {
+          "evidence_type": "json_fields",
+          "artifact_id": "CERT_SYNTH_EX",
+          "run_ids": [
+            "run_20260120T115715Z_0009"
+          ],
+          "expect": {
+            "reason_codes": [
+              "rr_fail",
+              "cc_fail"
+            ],
+            "RR_verdict": "FAIL",
+            "SSS_verdict": "PASS",
+            "CC_verdict": "FAIL",
+            "s_near_len": 2,
+            "replicate_circuits_len": 5
+          }
+        }
+      ]
+    },
+    {
+      "claim_id": "C2",
+      "evidence": [
+        {
+          "evidence_type": "csv_row_cells",
+          "artifact_id": "T2",
+          "where": {
+            "suite_id": "SUITE_REAL_INDUCTION_V1",
+            "intervention_family_id": "I_ACTPATCH",
+            "candidate_generator_id": "G_ATTR_PATCH"
+          },
+          "expect": {
+            "best_circuit_size_mean": "92.8",
+            "SSS_mean": "0.4082381844862226",
+            "overall_verdict": "FAIL"
+          }
+        },
+        {
+          "evidence_type": "json_fields",
+          "artifact_id": "CERT_REAL_INDUCTION_ID",
+          "run_ids": [
+            "run_20260120T162441Z_0000"
+          ],
+          "expect": {
+            "reason_codes": [
+              "rr_fail",
+              "sss_fail"
+            ],
+            "RR_verdict": "FAIL",
+            "SSS_verdict": "FAIL",
+            "CC_verdict": "PASS",
+            "s_near_len": 7,
+            "replicate_circuits_len": 5
+          }
+        },
+        {
+          "evidence_type": "csv_row_cells",
+          "artifact_id": "T4",
+          "where": {
+            "suite_id": "SUITE_REAL_INDUCTION_V1",
+            "experiment_id": "EXP_REAL_INDUCTION_OOD_V1",
+            "intervention_family_id": "I_ACTPATCH",
+            "candidate_generator_id": "G_ATTR_PATCH"
+          },
+          "expect": {
+            "best_circuit_size_mean": "17.6",
+            "SSS_mean": "0.12853064441138262",
+            "overall_verdict": "FAIL"
+          }
+        },
+        {
+          "evidence_type": "csv_row_cells",
+          "artifact_id": "T3",
+          "where": {
+            "variant_id": "SUITE_REAL_INDUCTION_V1|I_ACTPATCH|G_MANUAL_SEED"
+          },
+          "expect": {
+            "Δ_size": "63.2",
+            "Δ_faithfulness": "-0.21461105346679688",
+            "Δ_RR": "-0.5865743666501636",
+            "Δ_SSS": "0.5917618155137774",
+            "Δ_CC": "-0.010270967741935484"
+          }
+        }
+      ]
+    },
+    {
+      "claim_id": "C3",
+      "evidence": [
+        {
+          "evidence_type": "csv_row_cells",
+          "artifact_id": "T1",
+          "where": {
+            "setting_id": "setting_XOR_2_1"
+          },
+          "expect": {
+            "CC_mean": "0.6666666666666666",
+            "non_identifiability_rate": "1.0"
+          }
+        },
+        {
+          "evidence_type": "json_fields",
+          "artifact_id": "CERT_SYNTH_EX",
+          "run_ids": [
+            "run_20260120T115715Z_0009"
+          ],
+          "expect": {
+            "reason_codes": [
+              "rr_fail",
+              "cc_fail"
+            ],
+            "CC_verdict": "FAIL"
+          }
+        }
+      ]
+    },
+    {
+      "claim_id": "C4",
+      "evidence": [
+        {
+          "evidence_type": "csv_row_cells",
+          "artifact_id": "T2",
+          "where": {
+            "suite_id": "SUITE_REAL_IOI_V1",
+            "intervention_family_id": "I_ACTPATCH",
+            "candidate_generator_id": "G_ATTR_PATCH"
+          },
+          "expect": {
+            "best_circuit_size_mean": "124.0",
+            "RR_mean": "0.36188089493959547",
+            "SSS_mean": "0.6840180672829987",
+            "CC_mean": "0.09871794871794873",
+            "overall_verdict": "WARN"
+          }
+        },
+        {
+          "evidence_type": "csv_row_cells",
+          "artifact_id": "T2",
+          "where": {
+            "suite_id": "SUITE_REAL_GREATERTHAN_YN_V1",
+            "intervention_family_id": "I_ACTPATCH",
+            "candidate_generator_id": "G_ATTR_PATCH"
+          },
+          "expect": {
+            "best_circuit_size_mean": "155.6",
+            "RR_mean": "0.0",
+            "SSS_mean": "0.9984615384615385",
+            "CC_mean": "0.0",
+            "overall_verdict": "PASS"
+          }
+        },
+        {
+          "evidence_type": "csv_row_cells",
+          "artifact_id": "T4",
+          "where": {
+            "suite_id": "SUITE_REAL_IOI_V1",
+            "experiment_id": "EXP_REAL_IOI_OOD_V1",
+            "intervention_family_id": "I_ACTPATCH",
+            "candidate_generator_id": "G_ATTR_PATCH"
+          },
+          "expect": {
+            "best_circuit_size_mean": "124.0",
+            "SSS_mean": "0.682968933922532",
+            "overall_verdict": "WARN"
+          }
+        },
+        {
+          "evidence_type": "csv_row_cells",
+          "artifact_id": "T4",
+          "where": {
+            "suite_id": "SUITE_REAL_GREATERTHAN_YN_V1",
+            "experiment_id": "EXP_REAL_GREATERTHAN_YN_OOD_V1",
+            "intervention_family_id": "I_ACTPATCH",
+            "candidate_generator_id": "G_ATTR_PATCH"
+          },
+          "expect": {
+            "best_circuit_size_mean": "156.0",
+            "overall_verdict": "PASS"
+          }
+        },
+        {
+          "evidence_type": "csv_row_cells",
+          "artifact_id": "T4",
+          "where": {
+            "suite_id": "SUITE_REAL_INDUCTION_V1",
+            "experiment_id": "EXP_REAL_INDUCTION_OOD_V1",
+            "intervention_family_id": "I_ACTPATCH",
+            "candidate_generator_id": "G_ATTR_PATCH"
+          },
+          "expect": {
+            "best_circuit_size_mean": "17.6",
+            "SSS_mean": "0.12853064441138262",
+            "overall_verdict": "FAIL"
+          }
+        },
+        {
+          "evidence_type": "json_fields",
+          "artifact_id": "CERT_REAL_INDUCTION_OOD",
+          "run_ids": [
+            "run_20260120T160424Z_0000"
+          ],
+          "expect": {
+            "reason_codes": [
+              "rr_fail",
+              "sss_fail"
+            ],
+            "RR_verdict": "FAIL",
+            "SSS_verdict": "FAIL",
+            "CC_verdict": "PASS",
+            "s_near_len": 2,
+            "replicate_circuits_len": 5
+          }
+        }
+      ]
+    }
+  ]
+}

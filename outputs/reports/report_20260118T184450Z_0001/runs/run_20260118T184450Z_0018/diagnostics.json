@@ -1,0 +1,213 @@
+{
+  "suite_id": "SUITE_SYNTH_V1",
+  "experiment_id": "EXP_SYNTH_REDUNDANCY_SWEEP_V1",
+  "intervention_family_id": "I_ACTPATCH",
+  "candidate_generator_id": "G_ATTR_PATCH",
+  "component_granularity": "node",
+  "setting_id": "setting_XOR_8_3",
+  "template_id": "XOR",
+  "redundancy_factor": 8,
+  "baseline_score_s0": 1.0,
+  "epsilon": 0.1,
+  "tau": 0.05,
+  "best_circuit": {
+    "components": [
+      "node_XOR_3_aggr",
+      "node_XOR_3_r0"
+    ],
+    "mdl": 2.0,
+    "delta": 0.0
+  },
+  "RR": 0.6666666666666667,
+  "RR_verdict": "FAIL",
+  "SSS": 1.0,
+  "SSS_verdict": "PASS",
+  "CC": 0.8333333333333334,
+  "CC_verdict": "FAIL",
+  "candidate_records": [
+    {
+      "components": [
+        "node_XOR_3_aggr",
+        "node_XOR_3_r0",
+        "node_XOR_3_r1",
+        "node_XOR_3_r2",
+        "node_XOR_3_r3",
+        "node_XOR_3_r4",
+        "node_XOR_3_r5",
+        "node_XOR_3_r6",
+        "node_XOR_3_r7"
+      ],
+      "delta": 0.0,
+      "mdl": 9.0,
+      "faithful": true
+    },
+    {
+      "components": [],
+      "delta": 1.0,
+      "mdl": 0.0,
+      "faithful": false
+    },
+    {
+      "components": [
+        "node_XOR_3_aggr"
+      ],
+      "delta": 1.0,
+      "mdl": 1.0,
+      "faithful": false
+    },
+    {
+      "components": [
+        "node_XOR_3_aggr",
+        "node_XOR_3_r0"
+      ],
+      "delta": 0.0,
+      "mdl": 2.0,
+      "faithful": true,
+      "necessity": {
+        "node_XOR_3_aggr": true,
+        "node_XOR_3_r0": true
+      }
+    },
+    {
+      "components": [
+        "node_XOR_3_aggr",
+        "node_XOR_3_r0",
+        "node_XOR_3_r1",
+        "node_XOR_3_r2"
+      ],
+      "delta": 0.0,
+      "mdl": 4.0,
+      "faithful": true
+    },
+    {
+      "components": [
+        "node_XOR_3_aggr",
+        "node_XOR_3_r0",
+        "node_XOR_3_r1",
+        "node_XOR_3_r2",
+        "node_XOR_3_r3",
+        "node_XOR_3_r4",
+        "node_XOR_3_r5",
+        "node_XOR_3_r6"
+      ],
+      "delta": 0.0,
+      "mdl": 8.0,
+      "faithful": true
+    },
+    {
+      "components": [
+        "node_XOR_3_aggr",
+        "node_XOR_3_r3"
+      ],
+      "delta": 0.0,
+      "mdl": 2.0,
+      "faithful": true,
+      "necessity": {
+        "node_XOR_3_aggr": true,
+        "node_XOR_3_r3": true
+      }
+    },
+    {
+      "components": [
+        "node_XOR_3_aggr",
+        "node_XOR_3_r4"
+      ],
+      "delta": 0.0,
+      "mdl": 2.0,
+      "faithful": true,
+      "necessity": {
+        "node_XOR_3_aggr": true,
+        "node_XOR_3_r4": true
+      }
+    },
+    {
+      "components": [
+        "node_XOR_3_aggr",
+        "node_XOR_3_r5"
+      ],
+      "delta": 0.0,
+      "mdl": 2.0,
+      "faithful": true,
+      "necessity": {
+        "node_XOR_3_aggr": true,
+        "node_XOR_3_r5": true
+      }
+    },
+    {
+      "components": [
+        "node_XOR_3_aggr",
+        "node_XOR_3_r7"
+      ],
+      "delta": 0.0,
+      "mdl": 2.0,
+      "faithful": true,
+      "necessity": {
+        "node_XOR_3_aggr": true,
+        "node_XOR_3_r7": true
+      }
+    }
+  ],
+  "s_near": [
+    {
+      "components": [
+        "node_XOR_3_aggr",
+        "node_XOR_3_r0"
+      ],
+      "delta": 0.0,
+      "mdl": 2.0,
+      "necessity": {
+        "node_XOR_3_aggr": true,
+        "node_XOR_3_r0": true
+      }
+    },
+    {
+      "components": [
+        "node_XOR_3_aggr",
+        "node_XOR_3_r3"
+      ],
+      "delta": 0.0,
+      "mdl": 2.0,
+      "necessity": {
+        "node_XOR_3_aggr": true,
+        "node_XOR_3_r3": true
+      }
+    },
+    {
+      "components": [
+        "node_XOR_3_aggr",
+        "node_XOR_3_r4"
+      ],
+      "delta": 0.0,
+      "mdl": 2.0,
+      "necessity": {
+        "node_XOR_3_aggr": true,
+        "node_XOR_3_r4": true
+      }
+    },
+    {
+      "components": [
+        "node_XOR_3_aggr",
+        "node_XOR_3_r5"
+      ],
+      "delta": 0.0,
+      "mdl": 2.0,
+      "necessity": {
+        "node_XOR_3_aggr": true,
+        "node_XOR_3_r5": true
+      }
+    },
+    {
+      "components": [
+        "node_XOR_3_aggr",
+        "node_XOR_3_r7"
+      ],
+      "delta": 0.0,
+      "mdl": 2.0,
+      "necessity": {
+        "node_XOR_3_aggr": true,
+        "node_XOR_3_r7": true
+      }
+    }
+  ],
+  "certificate_file": "certificate.json"
+}

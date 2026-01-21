@@ -1,0 +1,5 @@
+schema_version_key: SCHEMAS.CONFIG_SCHEMA_VERSION
+budgets:
+  default_budget_key: BUDGETS.BUDGET_DEFAULT
+  synth_candidate_budget_key: BUDGETS.BUDGET_SYNTH_CANDIDATES
+  real_candidate_budget_key: BUDGETS.BUDGET_REAL_CANDIDATES

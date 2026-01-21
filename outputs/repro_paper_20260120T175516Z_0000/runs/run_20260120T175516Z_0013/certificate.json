@@ -1,0 +1,100 @@
+{
+  "project_id": "scrubid_iclr_pack_v1_0_3",
+  "project_version": "1.0.3",
+  "reason_codes": [
+    "rr_fail",
+    "cc_fail"
+  ],
+  "suite_id": "SUITE_SYNTH_V1",
+  "experiment_id": "EXP_SYNTH_REDUNDANCY_SWEEP_V1",
+  "intervention_family_id": "I_ACTPATCH",
+  "candidate_generator_id": "G_MANUAL_SEED",
+  "component_granularity": "node",
+  "model_id": "SUITE_SYNTH_V1",
+  "model_revision": "unknown",
+  "dataset_fingerprint": "114517ab5e64fe3b1ee5430bcbc33a3cd7c58d30be19a451efda53ab36754960",
+  "reference_dataset_fingerprint": "189246fd3126427e8aad6eb2d458634028bcabf7f6d2188bc3aca0b0a31c00d1",
+  "baseline_score_s0": 1.0,
+  "epsilon": 0.1,
+  "tau": 0.05,
+  "reference_distribution_id": "REFDIST_SYNTH_PAIRED_V1",
+  "reference_assignment_id": "REFASSIGN_DERANGEMENT_SHUFFLE_V1",
+  "RR": 0.6666666666666667,
+  "RR_verdict": "FAIL",
+  "SSS": 1.0,
+  "SSS_verdict": "PASS",
+  "CC": 0.8,
+  "CC_verdict": "FAIL",
+  "s_near": [
+    {
+      "components": [
+        "node_XOR_2_aggr",
+        "node_XOR_2_r0"
+      ],
+      "delta": 0.0,
+      "mdl": 2.0,
+      "necessity": {
+        "node_XOR_2_aggr": true,
+        "node_XOR_2_r0": true
+      }
+    },
+    {
+      "components": [
+        "node_XOR_2_aggr",
+        "node_XOR_2_r1"
+      ],
+      "delta": 0.0,
+      "mdl": 2.0,
+      "necessity": {
+        "node_XOR_2_aggr": true,
+        "node_XOR_2_r1": true
+      }
+    },
+    {
+      "components": [
+        "node_XOR_2_aggr",
+        "node_XOR_2_r2"
+      ],
+      "delta": 0.0,
+      "mdl": 2.0,
+      "necessity": {
+        "node_XOR_2_aggr": true,
+        "node_XOR_2_r2": true
+      }
+    },
+    {
+      "components": [
+        "node_XOR_2_aggr",
+        "node_XOR_2_r3"
+      ],
+      "delta": 0.0,
+      "mdl": 2.0,
+      "necessity": {
+        "node_XOR_2_aggr": true,
+        "node_XOR_2_r3": true
+      }
+    }
+  ],
+  "replicate_circuits": [
+    [
+      "node_XOR_2_aggr",
+      "node_XOR_2_r0"
+    ],
+    [
+      "node_XOR_2_aggr",
+      "node_XOR_2_r0"
+    ],
+    [
+      "node_XOR_2_aggr",
+      "node_XOR_2_r0"
+    ],
+    [
+      "node_XOR_2_aggr",
+      "node_XOR_2_r0"
+    ],
+    [
+      "node_XOR_2_aggr",
+      "node_XOR_2_r0"
+    ]
+  ]
+}

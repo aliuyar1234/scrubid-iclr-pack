@@ -1,0 +1,43 @@
+% Minimal LaTeX template for the ScrubID artifact-pack paper.
+% This is intentionally dependency-light and does not vendor any conference styles.
+\documentclass[10pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage[numbers,sort&compress]{natbib}
+
+\title{ScrubID: Identifiability-Aware Auditing for Mechanistic Interpretability}
+\author{(artifact pack template)}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+This LaTeX file is a template for producing a PDF. The canonical paper content lives in \texttt{paper.md}.
+\end{abstract}
+
+\section{Introduction}\label{sec:intro}
+Mechanistic interpretability aims to explain neural model behavior in terms of internal components such as attention heads, MLPs, or learned features \citep{wang2023ioi,olsson2022inductionheads}.
+
+\section{Method}\label{sec:method}
+See \texttt{paper.md} and the formal definitions in \texttt{spec/02\_FORMAL\_DEFINITIONS.md}.
+
+\section{Experiments}\label{sec:experiments}
+Main tables/figures are produced by the pipeline into an immutable report directory (see \texttt{paper.md} Appendix for the current bundle ID and report path).
+
+\section{Limitations and Ethics}\label{sec:limitations}
+See \texttt{paper.md}.
+
+\appendix
+\section{Appendix}\label{sec:appendix}
+See \texttt{paper.md} for run-level provenance and the claim\texorpdfstring{$\leftrightarrow$}{<->}evidence manifest.
+
+\bibliographystyle{plainnat}
+\bibliography{../../bib/references}
+
+\end{document}
+

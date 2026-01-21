@@ -1,0 +1,71 @@
+{
+  "suite_id": "SUITE_SYNTH_V1",
+  "experiment_id": "EXP_SYNTH_REDUNDANCY_SWEEP_V1",
+  "intervention_family_id": "I_ACTPATCH",
+  "candidate_generator_id": "G_ATTR_PATCH",
+  "component_granularity": "node",
+  "setting_id": "setting_XOR_1_0",
+  "template_id": "XOR",
+  "redundancy_factor": 1,
+  "baseline_score_s0": 1.0,
+  "epsilon": 0.1,
+  "tau": 0.05,
+  "best_circuit": {
+    "components": [
+      "node_XOR_0_aggr",
+      "node_XOR_0_r0"
+    ],
+    "mdl": 2.0,
+    "delta": 0.0
+  },
+  "RR": 0.0,
+  "RR_verdict": "PASS",
+  "SSS": 1.0,
+  "SSS_verdict": "PASS",
+  "CC": 0.0,
+  "CC_verdict": "PASS",
+  "candidate_records": [
+    {
+      "components": [
+        "node_XOR_0_aggr",
+        "node_XOR_0_r0"
+      ],
+      "delta": 0.0,
+      "mdl": 2.0,
+      "faithful": true,
+      "necessity": {
+        "node_XOR_0_aggr": true,
+        "node_XOR_0_r0": true
+      }
+    },
+    {
+      "components": [],
+      "delta": 1.0,
+      "mdl": 0.0,
+      "faithful": false
+    },
+    {
+      "components": [
+        "node_XOR_0_aggr"
+      ],
+      "delta": 1.0,
+      "mdl": 1.0,
+      "faithful": false
+    }
+  ],
+  "s_near": [
+    {
+      "components": [
+        "node_XOR_0_aggr",
+        "node_XOR_0_r0"
+      ],
+      "delta": 0.0,
+      "mdl": 2.0,
+      "necessity": {
+        "node_XOR_0_aggr": true,
+        "node_XOR_0_r0": true
+      }
+    }
+  ],
+  "certificate_file": null
+}

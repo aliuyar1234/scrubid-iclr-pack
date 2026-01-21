@@ -1,0 +1,3 @@
+schema_version_key: SCHEMAS.CONFIG_SCHEMA_VERSION
+intervention_families:
+  - id: IDS.INTERVENTION_FAMILY_IDS.I_ACTPATCH

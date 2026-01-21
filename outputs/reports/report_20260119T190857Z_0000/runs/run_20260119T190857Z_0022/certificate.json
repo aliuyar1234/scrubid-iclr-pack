@@ -1,0 +1,100 @@
+{
+  "project_id": "scrubid_iclr_pack_v1_0_3",
+  "project_version": "1.0.3",
+  "reason_codes": [
+    "rr_fail",
+    "cc_fail"
+  ],
+  "suite_id": "SUITE_SYNTH_V1",
+  "experiment_id": "EXP_SYNTH_REDUNDANCY_SWEEP_V1",
+  "intervention_family_id": "I_ACTPATCH",
+  "candidate_generator_id": "G_ATTR_PATCH",
+  "component_granularity": "node",
+  "model_id": "SUITE_SYNTH_V1",
+  "model_revision": "unknown",
+  "dataset_fingerprint": "3ead4bb8e951ad90e95f55c5040f501437d3d355cb4fac4cd726d3e322dc4eac",
+  "reference_dataset_fingerprint": "9aeb979e0aa30b14c7bcaa64c78654c00ad38882ec1432fff994aa2c7c6bbb53",
+  "baseline_score_s0": 1.0,
+  "epsilon": 0.1,
+  "tau": 0.05,
+  "reference_distribution_id": "REFDIST_SYNTH_PAIRED_V1",
+  "reference_assignment_id": "REFASSIGN_DERANGEMENT_SHUFFLE_V1",
+  "RR": 0.6666666666666667,
+  "RR_verdict": "FAIL",
+  "SSS": 1.0,
+  "SSS_verdict": "PASS",
+  "CC": 0.8,
+  "CC_verdict": "FAIL",
+  "s_near": [
+    {
+      "components": [
+        "node_INDUCTION_11_aggr",
+        "node_INDUCTION_11_r0"
+      ],
+      "delta": 0.0,
+      "mdl": 2.0,
+      "necessity": {
+        "node_INDUCTION_11_aggr": true,
+        "node_INDUCTION_11_r0": true
+      }
+    },
+    {
+      "components": [
+        "node_INDUCTION_11_aggr",
+        "node_INDUCTION_11_r2"
+      ],
+      "delta": 0.0,
+      "mdl": 2.0,
+      "necessity": {
+        "node_INDUCTION_11_aggr": true,
+        "node_INDUCTION_11_r2": true
+      }
+    },
+    {
+      "components": [
+        "node_INDUCTION_11_aggr",
+        "node_INDUCTION_11_r3"
+      ],
+      "delta": 0.0,
+      "mdl": 2.0,
+      "necessity": {
+        "node_INDUCTION_11_aggr": true,
+        "node_INDUCTION_11_r3": true
+      }
+    },
+    {
+      "components": [
+        "node_INDUCTION_11_aggr",
+        "node_INDUCTION_11_r7"
+      ],
+      "delta": 0.0,
+      "mdl": 2.0,
+      "necessity": {
+        "node_INDUCTION_11_aggr": true,
+        "node_INDUCTION_11_r7": true
+      }
+    }
+  ],
+  "replicate_circuits": [
+    [
+      "node_INDUCTION_11_aggr",
+      "node_INDUCTION_11_r0"
+    ],
+    [
+      "node_INDUCTION_11_aggr",
+      "node_INDUCTION_11_r0"
+    ],
+    [
+      "node_INDUCTION_11_aggr",
+      "node_INDUCTION_11_r0"
+    ],
+    [
+      "node_INDUCTION_11_aggr",
+      "node_INDUCTION_11_r0"
+    ],
+    [
+      "node_INDUCTION_11_aggr",
+      "node_INDUCTION_11_r0"
+    ]
+  ]
+}

@@ -1,0 +1,5 @@
+schema_version_key: SCHEMAS.CONFIG_SCHEMA_VERSION
+deterministic_mode_default_key: BOOL.TRUE
+global_seed_key: SEEDS.SEED_GLOBAL
+torch_deterministic_algorithms_key: BOOL.TRUE
+cudnn_benchmark_key: BOOL.FALSE

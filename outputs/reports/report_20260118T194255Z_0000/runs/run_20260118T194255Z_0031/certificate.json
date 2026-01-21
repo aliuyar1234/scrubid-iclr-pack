@@ -1,0 +1,53 @@
+{
+  "project_id": "scrubid_iclr_pack_v1_0_3",
+  "project_version": "1.0.3",
+  "suite_id": "SUITE_SYNTH_V1",
+  "experiment_id": "EXP_SYNTH_REDUNDANCY_SWEEP_V1",
+  "intervention_family_id": "I_ACTPATCH",
+  "candidate_generator_id": "G_MANUAL_SEED",
+  "component_granularity": "node",
+  "epsilon": 0.1,
+  "tau": 0.05,
+  "reference_distribution_id": "REFDIST_SYNTH_PAIRED_V1",
+  "reference_assignment_id": "REFASSIGN_DERANGEMENT_SHUFFLE_V1",
+  "s_near": [
+    {
+      "components": [
+        "node_COMPARE_5_aggr",
+        "node_COMPARE_5_r0"
+      ],
+      "delta": 0.0,
+      "mdl": 2.0
+    },
+    {
+      "components": [
+        "node_COMPARE_5_aggr",
+        "node_COMPARE_5_r1"
+      ],
+      "delta": 0.0,
+      "mdl": 2.0
+    }
+  ],
+  "replicate_circuits": [
+    [
+      "node_COMPARE_5_aggr",
+      "node_COMPARE_5_r0"
+    ],
+    [
+      "node_COMPARE_5_aggr",
+      "node_COMPARE_5_r0"
+    ],
+    [
+      "node_COMPARE_5_aggr",
+      "node_COMPARE_5_r0"
+    ],
+    [
+      "node_COMPARE_5_aggr",
+      "node_COMPARE_5_r0"
+    ],
+    [
+      "node_COMPARE_5_aggr",
+      "node_COMPARE_5_r0"
+    ]
+  ]
+}

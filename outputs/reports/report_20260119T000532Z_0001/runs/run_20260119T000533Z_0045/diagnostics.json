@@ -1,0 +1,174 @@
+{
+  "suite_id": "SUITE_SYNTH_V1",
+  "experiment_id": "EXP_SYNTH_REDUNDANCY_SWEEP_V1",
+  "intervention_family_id": "I_PATHPATCH",
+  "candidate_generator_id": "G_MANUAL_SEED",
+  "component_granularity": "node",
+  "setting_id": "setting_COMPARE_8_7",
+  "template_id": "COMPARE",
+  "redundancy_factor": 8,
+  "baseline_score_s0": 1.0,
+  "epsilon": 0.1,
+  "tau": 0.05,
+  "best_circuit": {
+    "components": [
+      "node_COMPARE_7_aggr",
+      "node_COMPARE_7_r2"
+    ],
+    "mdl": 2.0,
+    "delta": 0.0
+  },
+  "RR": 0.6666666666666667,
+  "RR_verdict": "FAIL",
+  "SSS": 0.4,
+  "SSS_verdict": "FAIL",
+  "CC": 0.8,
+  "CC_verdict": "FAIL",
+  "candidate_records": [
+    {
+      "components": [],
+      "delta": 1.0,
+      "mdl": 0.0,
+      "faithful": false
+    },
+    {
+      "components": [
+        "node_COMPARE_7_aggr"
+      ],
+      "delta": 1.0,
+      "mdl": 1.0,
+      "faithful": false
+    },
+    {
+      "components": [
+        "node_COMPARE_7_aggr",
+        "node_COMPARE_7_r0",
+        "node_COMPARE_7_r1",
+        "node_COMPARE_7_r2",
+        "node_COMPARE_7_r3",
+        "node_COMPARE_7_r4",
+        "node_COMPARE_7_r5",
+        "node_COMPARE_7_r6",
+        "node_COMPARE_7_r7"
+      ],
+      "delta": 0.0,
+      "mdl": 9.0,
+      "faithful": true
+    },
+    {
+      "components": [
+        "node_COMPARE_7_aggr",
+        "node_COMPARE_7_r2"
+      ],
+      "delta": 0.0,
+      "mdl": 2.0,
+      "faithful": true,
+      "necessity": {
+        "node_COMPARE_7_aggr": true,
+        "node_COMPARE_7_r2": true
+      }
+    },
+    {
+      "components": [
+        "node_COMPARE_7_aggr",
+        "node_COMPARE_7_r4"
+      ],
+      "delta": 0.0,
+      "mdl": 2.0,
+      "faithful": true,
+      "necessity": {
+        "node_COMPARE_7_aggr": true,
+        "node_COMPARE_7_r4": true
+      }
+    },
+    {
+      "components": [
+        "node_COMPARE_7_aggr",
+        "node_COMPARE_7_r6"
+      ],
+      "delta": 0.0,
+      "mdl": 2.0,
+      "faithful": true,
+      "necessity": {
+        "node_COMPARE_7_aggr": true,
+        "node_COMPARE_7_r6": true
+      }
+    },
+    {
+      "components": [
+        "node_COMPARE_7_aggr",
+        "node_COMPARE_7_r7"
+      ],
+      "delta": 0.0,
+      "mdl": 2.0,
+      "faithful": true,
+      "necessity": {
+        "node_COMPARE_7_aggr": true,
+        "node_COMPARE_7_r7": true
+      }
+    },
+    {
+      "components": [
+        "node_COMPARE_7_aggr",
+        "node_COMPARE_7_r0",
+        "node_COMPARE_7_r2",
+        "node_COMPARE_7_r5",
+        "node_COMPARE_7_r7"
+      ],
+      "delta": 0.0,
+      "mdl": 5.0,
+      "faithful": true
+    }
+  ],
+  "s_near": [
+    {
+      "components": [
+        "node_COMPARE_7_aggr",
+        "node_COMPARE_7_r2"
+      ],
+      "delta": 0.0,
+      "mdl": 2.0,
+      "necessity": {
+        "node_COMPARE_7_aggr": true,
+        "node_COMPARE_7_r2": true
+      }
+    },
+    {
+      "components": [
+        "node_COMPARE_7_aggr",
+        "node_COMPARE_7_r4"
+      ],
+      "delta": 0.0,
+      "mdl": 2.0,
+      "necessity": {
+        "node_COMPARE_7_aggr": true,
+        "node_COMPARE_7_r4": true
+      }
+    },
+    {
+      "components": [
+        "node_COMPARE_7_aggr",
+        "node_COMPARE_7_r6"
+      ],
+      "delta": 0.0,
+      "mdl": 2.0,
+      "necessity": {
+        "node_COMPARE_7_aggr": true,
+        "node_COMPARE_7_r6": true
+      }
+    },
+    {
+      "components": [
+        "node_COMPARE_7_aggr",
+        "node_COMPARE_7_r7"
+      ],
+      "delta": 0.0,
+      "mdl": 2.0,
+      "necessity": {
+        "node_COMPARE_7_aggr": true,
+        "node_COMPARE_7_r7": true
+      }
+    }
+  ],
+  "certificate_file": "certificate.json"
+}
