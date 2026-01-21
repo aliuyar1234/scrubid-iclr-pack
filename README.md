@@ -2,9 +2,9 @@
 
 Ali Uyar (Independent Researcher)
 
-- Paper (PDF): https://github.com/aliuyar1234/scrubid-iclr-pack/releases/latest/download/scrubid_preprint.pdf
-- LaTeX sources: https://github.com/aliuyar1234/scrubid-iclr-pack/releases/latest/download/scrubid_latex_sources.zip
-- Releases: https://github.com/aliuyar1234/scrubid-iclr-pack/releases
+Paper (PDF): https://github.com/aliuyar1234/scrubid-iclr-pack/releases/latest/download/scrubid_preprint.pdf
+LaTeX sources: https://github.com/aliuyar1234/scrubid-iclr-pack/releases/latest/download/scrubid_latex_sources.zip
+Releases: https://github.com/aliuyar1234/scrubid-iclr-pack/releases
 
 ScrubID is an identifiability-aware auditing pipeline for mechanistic interpretability claims in transformer language models.
 
