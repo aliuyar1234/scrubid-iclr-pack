@@ -1,4 +1,16 @@
-# ScrubID (ICLR Pack v1.0.3)
+<p align="center">
+  <a href="https://github.com/aliuyar1234/scrubid-iclr-pack/releases/latest/download/scrubid_preprint.pdf">
+    <img src="assets/scrubid_logo.svg" alt="ScrubID" width="720" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/aliuyar1234/scrubid-iclr-pack/releases/latest/download/scrubid_preprint.pdf"><img alt="Paper PDF" src="https://img.shields.io/badge/Paper-PDF-blue" /></a>
+  <a href="https://github.com/aliuyar1234/scrubid-iclr-pack/releases/latest/download/scrubid_latex_sources.zip"><img alt="LaTeX sources" src="https://img.shields.io/badge/LaTeX-sources-success" /></a>
+  <a href="https://github.com/aliuyar1234/scrubid-iclr-pack/releases"><img alt="Release" src="https://img.shields.io/github/v/release/aliuyar1234/scrubid-iclr-pack" /></a>
+</p>
+
+# ScrubID
 
 ScrubID is an identifiability-aware auditing pipeline for mechanistic interpretability claims in transformer language models.
 
