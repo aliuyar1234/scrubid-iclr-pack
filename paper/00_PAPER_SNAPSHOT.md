@@ -2,14 +2,14 @@
 
 This pack contains a structured paper draft split into sections.
 
-The draft is synced to v1.0.3 of the spec, including:
+The draft is synced to v1.0.4 of the spec, including:
 
 - RR as worst-case disagreement among near-optimal circuits,
 - SSS as stability across replicate discovery runs,
 - CC as a contradiction score over necessity claims,
 - explicit reference distribution D_ref and pairing semantics.
 
-See `paper/` for section files and `spec/19_PAPER_WRITING_PLAN.md` for the claim–evidence map.
+See `paper/` for section files and `spec/19_PAPER_WRITING_PLAN.md` for the claim-evidence map.
 
 This draft is backed by a concrete artifact bundle generated on 2026-01-20:
 

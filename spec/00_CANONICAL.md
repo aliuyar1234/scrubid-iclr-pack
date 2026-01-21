@@ -16,7 +16,7 @@ Any other file must reference these items by name only.
 
 ```yaml
 PROJECT_ID: scrubid_iclr_pack_v1_0_3
-PROJECT_VERSION: "1.0.3"
+PROJECT_VERSION: "1.0.4"
 PACK_CREATED_DATE_UTC: 2026-01-18
 
 DOCS:
@@ -36,7 +36,7 @@ PAPER:
 
 ERRORS:
   # Hard-fail message when non-actpatch intervention families are requested in
-  # the v1.0.3 paper reproduction scope.
+  # the v1.0.4 paper reproduction scope.
   NOT_IMPLEMENTED_FOR_PAPER_REPRO: NOT_IMPLEMENTED_FOR_PAPER_REPRO
 
 BOOL:

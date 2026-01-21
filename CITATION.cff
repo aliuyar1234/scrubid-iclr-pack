@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: If you use ScrubID, please cite the paper and/or this artifact pack.
 title: ScrubID (ICLR Pack)
-version: 1.0.3
+version: 1.0.4
 date-released: 2026-01-21
 authors:
   - family-names: Uyar
