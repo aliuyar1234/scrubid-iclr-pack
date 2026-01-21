@@ -1,4 +1,4 @@
-[Paper (PDF)](https://github.com/aliuyar1234/scrubid-iclr-pack/releases/latest/download/scrubid_preprint.pdf) | [LaTeX sources](https://github.com/aliuyar1234/scrubid-iclr-pack/releases/latest/download/scrubid_latex_sources.zip) | [Releases](https://github.com/aliuyar1234/scrubid-iclr-pack/releases)
+[![Paper (PDF)](https://img.shields.io/badge/Paper-PDF-b91c1c?logo=adobeacrobatreader&logoColor=white)](https://github.com/aliuyar1234/scrubid-iclr-pack/releases/latest/download/scrubid_preprint.pdf) [![LaTeX sources](https://img.shields.io/badge/LaTeX-sources-16a34a?logo=latex&logoColor=white)](https://github.com/aliuyar1234/scrubid-iclr-pack/releases/latest/download/scrubid_latex_sources.zip) [![Releases](https://img.shields.io/badge/Releases-GitHub-181717?logo=github&logoColor=white)](https://github.com/aliuyar1234/scrubid-iclr-pack/releases)
 
 # ScrubID: Identifiability-Aware Auditing for Mechanistic Interpretability
 
