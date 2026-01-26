@@ -37,3 +37,6 @@ paper/*_src/
 
 # Local preview renders
 outputs/pdf_preview*/
+
+# Local manuscript edits
+paper.md
