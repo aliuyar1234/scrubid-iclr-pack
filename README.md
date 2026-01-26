@@ -1,4 +1,4 @@
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18330420-0ea5e9)](https://doi.org/10.5281/zenodo.18330420) [![Paper (PDF)](https://img.shields.io/badge/Paper-PDF-b91c1c?logo=adobeacrobatreader&logoColor=white)](https://github.com/aliuyar1234/scrubid-iclr-pack/releases/latest/download/scrubid_preprint.pdf) [![LaTeX sources](https://img.shields.io/badge/LaTeX-sources-16a34a?logo=latex&logoColor=white)](https://github.com/aliuyar1234/scrubid-iclr-pack/releases/latest/download/scrubid_latex_sources.zip) [![Releases](https://img.shields.io/badge/Releases-GitHub-181717?logo=github&logoColor=white)](https://github.com/aliuyar1234/scrubid-iclr-pack/releases)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18330420-0ea5e9)](https://doi.org/10.5281/zenodo.18330420) [![Paper (PDF)](https://img.shields.io/badge/Paper-PDF-b91c1c?logo=adobeacrobatreader&logoColor=white)](paper/scrubid_preprint.pdf?raw=1) [![LaTeX sources](https://img.shields.io/badge/LaTeX-sources-16a34a?logo=latex&logoColor=white)](paper/scrubid_latex_sources.zip?raw=1) [![Releases](https://img.shields.io/badge/Releases-GitHub-181717?logo=github&logoColor=white)](https://github.com/aliuyar1234/scrubid-iclr-pack/releases)
 
 # ScrubID: Identifiability-Aware Auditing for Mechanistic Interpretability
 
@@ -14,8 +14,8 @@ The pipeline produces (i) a scrubbed model construction, (ii) three diagnostics 
 
 ## Paper
 
-- Paper PDF (download): https://github.com/aliuyar1234/scrubid-iclr-pack/releases/latest/download/scrubid_preprint.pdf
-- LaTeX source bundle (download): https://github.com/aliuyar1234/scrubid-iclr-pack/releases/latest/download/scrubid_latex_sources.zip
+- Paper PDF (download): [paper/scrubid_preprint.pdf](paper/scrubid_preprint.pdf?raw=1)
+- LaTeX source bundle (download): [paper/scrubid_latex_sources.zip](paper/scrubid_latex_sources.zip?raw=1)
 
 Local copies (same files, repo paths):
 
